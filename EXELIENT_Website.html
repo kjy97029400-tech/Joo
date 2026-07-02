@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EXELIENT — 사람이 기억하고, AI가 인용하는 브랜드</title>
+<meta name="description" content="EXELIENT는 AI 검색과 데이터 기반 성장을 연결하는 파트너입니다. SEO · GEO · GA4 · 데이터 분석 컨설팅.">
+<meta property="og:title" content="EXELIENT — Beyond Visible, Toward Cited">
+<meta property="og:description" content="새로운 스토리텔링 시대, 브랜드를 실행하다. Run your brand.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"EXELIENT","alternateName":"주식회사 엑셀리언트","url":"https://www.exelient.co.kr","foundingDate":"2018-01","address":{"@type":"PostalAddress","addressLocality":"서울시 강남구 삼성동","addressCountry":"KR"},"knowsAbout":["SEO","Generative Engine Optimization","GA4","Entity Branding","Data Analytics"]}
+</script>
+<style>
+/* ============================================================
+   EXE · CITRON DS v0.3 — TOKENS (디자인 시스템 1:1 매핑)
+   ============================================================ */
+:root{
+  --ink-900:#16130F; --ink-800:#2A2620; --ink-700:#3D382F; --ink-600:#57534B;
+  --ink-500:#6E695F; --ink-400:#8C887E; --ink-300:#9A968C; --ink-200:#C7C7C3;
+  --ink-150:#E4E3E0; --ink-100:#EDECEA; --ink-50:#F5F5F4;
+  --paper:#FFFFFF; --surface:#FFFFFF; --surface-sunk:#F3F3F1;
+  --surface-ink:#15120E; --on-ink:#F6F5F1; --on-ink-muted:#A8A399;
+  --on-surface-ink:#F6F5F1; --on-surface-ink-muted:#A8A399;
+  --lime-700:#46500A; --lime-600:#5E6A00; --lime-500:#E4F222; --lime-hover:#C8DC00;
+  --lime-400:#D9E84A; --lime-200:#DDEE7E; --lime-100:#F1F9BE; --lime-50:#FAFCEB;
+  --data-lime:#E4F222; --data-cobalt:#1F5BFF; --data-emerald:#00A86B; --data-magenta:#E5189B;
+  --success:#00875A; --warning:#C77A00; --danger:#C8341B; --info:#1F5BFF;
+  --bg-page:var(--paper); --bg-surface:var(--surface); --bg-inset:var(--surface-sunk);
+  --text-strong:var(--ink-900); --text-body:var(--ink-600); --text-muted:var(--ink-400);
+  --text-placeholder:var(--ink-300); --text-accent:var(--lime-600);
+  --border-strong:var(--ink-900); --border-hairline:var(--ink-150); --border-light:var(--ink-100);
+  --accent:var(--lime-500); --accent-hover:var(--lime-hover); --accent-tint:var(--lime-50);
+  --focus-ring:var(--lime-500);
+  --font-sans:"Pretendard Variable","Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --fs-display-1:clamp(48px,9vw,112px); --fs-display-2:clamp(40px,7vw,84px);
+  --fs-display-3:clamp(34px,5.2vw,64px); --fs-h1:clamp(30px,4vw,48px);
+  --fs-h2:clamp(25px,3vw,36px); --fs-h3:clamp(21px,2.2vw,27px); --fs-h4:20px;
+  --fs-body-lg:18px; --fs-body:16px; --fs-body-sm:14px; --fs-caption:13px; --fs-overline:12px;
+  --lh-tight:.96; --lh-snug:1.08; --lh-normal:1.5; --lh-relaxed:1.65;
+  --ls-tighter:-.045em; --ls-tight:-.03em; --ls-normal:-.01em; --ls-overline:.16em;
+  --space-2:8px; --space-3:12px; --space-4:16px; --space-6:24px; --space-8:32px;
+  --space-10:40px; --space-12:48px; --space-16:64px; --space-20:80px; --space-24:96px; --space-32:128px;
+  --radius-sm:4px; --radius-md:6px; --radius-lg:10px; --radius-pill:999px;
+  --shadow-sm:0 1px 2px rgba(22,19,15,.06); --shadow-md:0 4px 16px rgba(22,19,15,.08);
+  --shadow-lg:0 18px 48px rgba(22,19,15,.12);
+  --ease-standard:cubic-bezier(.22,.61,.36,1); --ease-emphasis:cubic-bezier(.16,1,.3,1);
+  --dur-fast:140ms; --dur-base:240ms; --dur-slow:420ms;
+  --container:1180px; --gutter-pc:48px; --gutter-mo:20px;
+  --z-sticky:100; --z-overlay:200; --z-modal:300; --z-toast:400;
+  color-scheme:light;
+}
+[data-theme="dark"]{
+  --ink-900:#F4F3EF; --ink-800:#E3E2DD; --ink-700:#CCCBC6; --ink-600:#A9A8A2;
+  --ink-500:#908F89; --ink-400:#79786F; --ink-300:#696862; --ink-200:#474640;
+  --ink-150:#34332E; --ink-100:#272622; --ink-50:#1F1E1B;
+  --paper:#0F0F0E; --surface:#1A1A18; --surface-sunk:#242421; --surface-ink:#070706;
+  --on-ink:#16130F; --on-ink-muted:#57534B;
+  --lime-700:#EAF57A; --lime-600:#D9E84A; --text-accent:var(--lime-400);
+  --lime-50:#1C1B0E; --lime-100:#2A2912; --lime-200:#46491C;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.5); --shadow-md:0 6px 20px rgba(0,0,0,.55); --shadow-lg:0 20px 50px rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+/* ============================================================
+   BASE
+   ============================================================ */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg-page);color:var(--text-strong);font-family:var(--font-sans);font-size:var(--fs-body);line-height:var(--lh-normal);-webkit-font-smoothing:antialiased;transition:background var(--dur-base) var(--ease-standard),color var(--dur-base) var(--ease-standard)}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font-family:var(--font-sans)}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--lime-500);color:var(--ink-900);padding:10px 16px;font-weight:700;z-index:500;border-radius:0 0 8px 0}
+.skip-link:focus{left:0}
+.container{max-width:var(--container);margin:0 auto;padding:0 var(--gutter-pc)}
+@media(max-width:768px){.container{padding:0 var(--gutter-mo)}}
+.overline{font-size:var(--fs-overline);font-weight:700;letter-spacing:var(--ls-overline);text-transform:uppercase;color:var(--text-accent)}
+.section{padding:var(--space-24) 0}
+@media(max-width:768px){.section{padding:var(--space-16) 0}}
+.section-head{margin-bottom:var(--space-12)}
+.section-head h2{font-size:var(--fs-h2);font-weight:800;letter-spacing:var(--ls-tight);line-height:var(--lh-snug);margin:10px 0 8px}
+.section-head p{color:var(--text-body);margin:0;max-width:56ch}
+/* ============================================================
+   BUTTONS — Primary(라임)는 화면당 하나
+   ============================================================ */
+.btn{display:inline-flex;align-items:center;gap:8px;font-size:var(--fs-body-sm);font-weight:700;padding:12px 22px;border-radius:7px;border:none;cursor:pointer;text-decoration:none;transition:background var(--dur-fast) var(--ease-standard),transform var(--dur-fast) var(--ease-standard),box-shadow var(--dur-fast)}
+.btn--primary{background:var(--lime-500);color:#16130F}
+.btn--primary:hover{background:var(--lime-hover)}
+.btn--ink{background:var(--ink-900);color:var(--on-ink);font-weight:600}
+.btn--ink:hover{transform:translateY(-1px)}
+.btn--outline{background:transparent;color:var(--text-strong);box-shadow:inset 0 0 0 1px var(--ink-900);font-weight:600}
+.btn--outline:hover{background:var(--ink-50)}
+.btn--ghost{background:transparent;color:var(--text-strong);font-weight:600}
+.btn--ghost:hover{background:var(--ink-50)}
+.btn.is-loading{opacity:.6;pointer-events:none}
+.btn[disabled]{opacity:.4;pointer-events:none}
+.link-underline{font-weight:600;color:var(--text-strong);text-decoration:none;border-bottom:2px solid var(--lime-500);padding-bottom:2px;transition:border-color var(--dur-fast)}
+.link-underline:hover{border-color:var(--ink-900)}
+/* ============================================================
+   F-COM-GNB — 헤더 (REQ-001: 반응형 GNB·드롭다운·모바일 메뉴)
+   ============================================================ */
+.gnb{position:sticky;top:0;z-index:var(--z-sticky);background:color-mix(in srgb,var(--bg-page) 86%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--border-hairline);transition:height var(--dur-base) var(--ease-standard)}
+.gnb__inner{max-width:var(--container);margin:0 auto;padding:0 var(--gutter-pc);height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px;transition:height var(--dur-base) var(--ease-standard)}
+.gnb.is-shrunk .gnb__inner{height:58px}
+.gnb__logo{display:flex;align-items:baseline;gap:5px;text-decoration:none;font-size:22px;letter-spacing:var(--ls-tight);color:var(--text-strong)}
+.wm-b{font-weight:900}
+.wm-l{font-weight:300;letter-spacing:-0.01em}
+.gnb__logo .dot{width:6px;height:6px;border-radius:999px;background:var(--lime-500);transform:translateY(-10px)}
+.gnb__nav{display:flex;align-items:center;gap:4px}
+.gnb__item{position:relative}
+.gnb__link{display:block;font-size:15px;font-weight:600;color:var(--text-body);text-decoration:none;padding:10px 14px;border-radius:7px;transition:color var(--dur-fast),background var(--dur-fast);background:none;border:none;cursor:pointer}
+.gnb__link:hover{color:var(--text-strong);background:var(--ink-50)}
+.gnb__link.is-active{color:var(--text-strong);box-shadow:inset 0 -2px 0 var(--lime-500);border-radius:7px 7px 0 0}
+.gnb__dropdown{position:absolute;top:calc(100% + 8px);left:0;min-width:240px;background:var(--surface);border:1px solid var(--border-hairline);border-radius:var(--radius-lg);box-shadow:var(--shadow-md);padding:8px;opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity var(--dur-fast) var(--ease-standard),transform var(--dur-fast) var(--ease-standard),visibility var(--dur-fast)}
+.gnb__item:hover .gnb__dropdown,.gnb__item:focus-within .gnb__dropdown{opacity:1;visibility:visible;transform:none}
+.gnb__dd-link{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border-radius:7px;text-decoration:none;transition:background var(--dur-fast)}
+.gnb__dd-link:hover{background:var(--ink-50)}
+.gnb__dd-link b{font-size:14px;font-weight:700;color:var(--text-strong)}
+.gnb__dd-link span{font-size:12px;color:var(--text-muted)}
+.gnb__tools{display:flex;align-items:center;gap:8px}
+.lang-toggle,.theme-toggle{display:inline-flex;align-items:center;gap:2px;background:var(--surface-sunk);border:none;border-radius:var(--radius-pill);padding:3px;cursor:pointer}
+.lang-toggle button,.theme-toggle button{border:none;background:transparent;font-size:12px;font-weight:700;color:var(--text-muted);padding:5px 10px;border-radius:999px;cursor:pointer;font-family:var(--font-sans)}
+.lang-toggle button.is-on,.theme-toggle button.is-on{background:var(--surface);color:var(--text-strong);box-shadow:var(--shadow-sm)}
+.gnb__cta{display:inline-flex}
+.gnb__burger{display:none;width:42px;height:42px;border:1px solid var(--border-hairline);background:transparent;border-radius:8px;flex-direction:column;gap:5px;align-items:center;justify-content:center;cursor:pointer}
+.gnb__burger span{width:18px;height:2px;background:var(--text-strong);transition:transform var(--dur-base) var(--ease-emphasis),opacity var(--dur-fast)}
+@media(max-width:960px){
+  .gnb__inner{padding:0 var(--gutter-mo)}
+  .gnb__nav,.gnb__cta,.gnb__tools .theme-toggle{display:none}
+  .gnb__burger{display:flex}
+}
+/* 모바일 풀스크린 메뉴 */
+.mobile-menu{position:fixed;inset:0;z-index:var(--z-overlay);background:var(--bg-page);display:flex;flex-direction:column;padding:96px var(--gutter-mo) 40px;opacity:0;visibility:hidden;transition:opacity var(--dur-base) var(--ease-standard),visibility var(--dur-base)}
+.mobile-menu.is-open{opacity:1;visibility:visible}
+.mobile-menu a{font-size:clamp(28px,8vw,40px);font-weight:800;letter-spacing:var(--ls-tight);text-decoration:none;color:var(--text-strong);padding:12px 0;border-bottom:1px solid var(--border-light)}
+.mobile-menu .sub{font-size:16px;font-weight:600;color:var(--text-body);padding:10px 0 10px 16px;border-bottom:1px solid var(--border-light)}
+.mobile-menu__close{position:absolute;top:18px;right:20px;width:44px;height:44px;border:1px solid var(--border-hairline);border-radius:8px;background:transparent;font-size:20px;cursor:pointer;color:var(--text-strong)}
+.mobile-menu__tools{margin-top:auto;display:flex;gap:10px;padding-top:24px}
+body.menu-locked{overflow:hidden}
+/* ============================================================
+   HERO — F-HOME §1 (REQ-002 스크롤 스토리텔링 · Twoo 원칙)
+   ============================================================ */
+.hero{min-height:calc(100vh - 76px);display:flex;flex-direction:column;justify-content:flex-start;position:relative;overflow:hidden;padding-bottom:72px}
+.hero__eyebrow{margin-bottom:22px}
+.hero h1{font-size:var(--fs-display-1);font-weight:900;letter-spacing:var(--ls-tighter);line-height:var(--lh-tight);margin:0 0 28px;max-width:14ch}
+.hero h1 .ghost{color:var(--ink-300)}
+.hero h1 .cited{position:relative;white-space:nowrap}
+.hero h1 .cited::after{content:"";position:absolute;left:0;right:0;bottom:.04em;height:.18em;background:var(--lime-500);z-index:-1;transform-origin:left;transform:scaleX(0);animation:citeIn .9s var(--ease-emphasis) .5s forwards}
+@keyframes citeIn{to{transform:scaleX(1)}}
+.hero__sub{font-size:clamp(16px,1.6vw,19px);color:var(--text-body);max-width:52ch;margin:0 0 36px;line-height:var(--lh-relaxed)}
+.hero__cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero__scroll{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--text-muted);text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:8px}
+.hero__scroll::after{content:"";width:1px;height:36px;background:linear-gradient(var(--text-muted),transparent);animation:scrollPulse 1.8s var(--ease-inout,ease-in-out) infinite}
+@keyframes scrollPulse{50%{transform:scaleY(.4);transform-origin:top}}
+/* 내러티브 스트립 — "화자가 바뀌었다" */
+.narrator{background:var(--surface-ink);color:var(--on-surface-ink)}
+.narrator .overline{color:var(--lime-400)}
+.narrator h2{font-size:var(--fs-display-3);font-weight:900;letter-spacing:var(--ls-tight);line-height:1.04;margin:12px 0 20px;max-width:20ch}
+.narrator p{color:var(--on-surface-ink-muted);max-width:56ch;font-size:var(--fs-body-lg);line-height:var(--lh-relaxed);margin:0}
+.narrator .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(246,245,241,.14);margin-top:56px;border:1px solid rgba(246,245,241,.14)}
+.narrator .step{background:var(--surface-ink);padding:28px 24px}
+.narrator .step b{display:block;font-size:17px;font-weight:800;margin-bottom:8px;color:var(--on-surface-ink)}
+.narrator .step span{font-size:14px;color:var(--on-surface-ink-muted);line-height:1.6}
+.narrator .step .no{font-size:12px;font-weight:700;letter-spacing:.14em;color:var(--lime-400);display:block;margin-bottom:14px}
+@media(max-width:768px){.narrator .steps{grid-template-columns:1fr}}
+/* ============================================================
+   CARDS — 서비스 4종 / WORK / INSIGHTS
+   ============================================================ */
+.grid{display:grid;gap:16px}
+.grid--2{grid-template-columns:repeat(2,1fr)}
+.grid--3{grid-template-columns:repeat(3,1fr)}
+.grid--4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:960px){.grid--4{grid-template-columns:repeat(2,1fr)}.grid--3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.grid--4,.grid--3,.grid--2{grid-template-columns:1fr}}
+.card{background:var(--surface);box-shadow:inset 0 0 0 1px var(--border-hairline);border-radius:12px;padding:26px;text-decoration:none;display:flex;flex-direction:column;transition:transform var(--dur-base) var(--ease-emphasis),box-shadow var(--dur-base)}
+a.card:hover{transform:translateY(-4px);box-shadow:inset 0 0 0 1.5px var(--ink-900),var(--shadow-md)}
+.card__no{font-size:12px;font-weight:700;letter-spacing:.14em;color:var(--text-muted);margin-bottom:18px}
+.card__title{font-size:var(--fs-h4);font-weight:800;letter-spacing:var(--ls-normal);margin:0 0 8px;color:var(--text-strong)}
+.card__desc{font-size:14px;color:var(--text-body);line-height:1.6;margin:0 0 20px;flex:1}
+.card__more{font-size:13px;font-weight:700;color:var(--text-strong)}
+.card__more::after{content:" →";color:var(--text-accent)}
+/* WORK 카드 */
+.work-card{background:var(--surface);box-shadow:inset 0 0 0 1px var(--border-hairline);border-radius:12px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:transform var(--dur-base) var(--ease-emphasis),box-shadow var(--dur-base)}
+.work-card:hover{transform:translateY(-4px);box-shadow:inset 0 0 0 1.5px var(--ink-900),var(--shadow-md)}
+.work-card__thumb{aspect-ratio:16/9;background:var(--surface-sunk);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:clamp(22px,3vw,30px);letter-spacing:var(--ls-tight);color:var(--ink-300);position:relative;overflow:hidden}
+.work-card__thumb::after{content:"";position:absolute;inset:auto 0 0 0;height:4px;background:var(--lime-500);transform:scaleX(0);transform-origin:left;transition:transform var(--dur-base) var(--ease-emphasis)}
+.work-card:hover .work-card__thumb::after{transform:scaleX(1)}
+.work-card__body{padding:20px 22px 24px}
+.work-card__client{font-size:17px;font-weight:800;color:var(--text-strong);margin:0 0 6px}
+.work-card__metric{font-size:14px;color:var(--text-body);margin:0 0 14px}
+.work-card__metric b{color:var(--text-accent);font-weight:800}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:11px;font-weight:700;letter-spacing:.04em;color:var(--text-body);padding:4px 10px;border-radius:999px;box-shadow:inset 0 0 0 1px var(--border-hairline)}
+.tag--ind{background:var(--surface-sunk)}
+/* 성과 지표 카운트업 */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border-hairline);border:1px solid var(--border-hairline)}
+.stat{background:var(--bg-page);padding:34px 26px}
+.stat__num{font-size:clamp(34px,4.4vw,56px);font-weight:900;letter-spacing:var(--ls-tight);font-variant-numeric:tabular-nums;color:var(--text-strong)}
+.stat__num .unit{font-size:.5em;font-weight:800;color:var(--text-accent)}
+.stat__label{font-size:13px;color:var(--text-muted);margin-top:6px}
+@media(max-width:960px){.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.stats{grid-template-columns:1fr}}
+/* 로고월 */
+.logo-wall{overflow:hidden;position:relative;padding:8px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.logo-track{display:flex;gap:56px;width:max-content;animation:marquee 38s linear infinite}
+.logo-track span{font-size:17px;font-weight:800;letter-spacing:var(--ls-normal);color:var(--ink-300);white-space:nowrap}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.logo-wall:hover .logo-track{animation-play-state:paused}
+/* CTA 배너 */
+.cta-banner{background:var(--surface-ink);border-radius:16px;padding:clamp(40px,6vw,72px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px}
+.cta-banner h2{color:var(--on-surface-ink);font-size:var(--fs-h1);font-weight:900;letter-spacing:var(--ls-tight);line-height:var(--lh-snug);margin:0;max-width:18ch}
+.cta-banner p{color:var(--on-surface-ink-muted);margin:10px 0 0;font-size:15px}
+/* ============================================================
+   페이지 공통 — 페이지 히어로 / 리빌 / 상세
+   ============================================================ */
+.page-hero{padding:var(--space-24) 0 var(--space-16)}
+.page-hero h1{font-size:var(--fs-display-3);font-weight:900;letter-spacing:var(--ls-tight);line-height:1.02;margin:14px 0 18px;max-width:18ch}
+.page-hero p{font-size:var(--fs-body-lg);color:var(--text-body);max-width:56ch;margin:0;line-height:var(--lh-relaxed)}
+[data-reveal]{opacity:0;transform:translateY(22px);transition:opacity var(--dur-slow) var(--ease-standard),transform var(--dur-slow) var(--ease-emphasis)}
+[data-reveal].is-in{opacity:1;transform:none}
+/* 프로세스 다이어그램 */
+.process{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;counter-reset:step}
+.process__step{background:var(--surface);box-shadow:inset 0 0 0 1px var(--border-hairline);border-radius:10px;padding:22px;position:relative}
+.process__step::before{counter-increment:step;content:"0" counter(step);font-size:12px;font-weight:800;letter-spacing:.1em;color:var(--text-accent);display:block;margin-bottom:12px}
+.process__step b{display:block;font-size:15px;font-weight:800;margin-bottom:6px;color:var(--text-strong)}
+.process__step span{font-size:13px;color:var(--text-body);line-height:1.55}
+/* BX×UX×AX 프레임워크 */
+.framework{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:820px){.framework{grid-template-columns:1fr}}
+.fw-cell{border:1px solid var(--border-hairline);border-radius:12px;padding:28px;background:var(--surface)}
+.fw-cell .x{font-size:clamp(34px,4vw,48px);font-weight:900;letter-spacing:var(--ls-tight);color:var(--text-strong)}
+.fw-cell .x i{font-style:normal;color:var(--text-accent)}
+.fw-cell b{display:block;font-size:15px;font-weight:800;margin:14px 0 6px}
+.fw-cell p{font-size:14px;color:var(--text-body);margin:0;line-height:1.6}
+/* 타임라인 */
+.timeline{border-left:2px solid var(--border-hairline);margin-left:6px;padding-left:28px;display:flex;flex-direction:column;gap:26px}
+.timeline li{list-style:none;position:relative}
+.timeline li::before{content:"";position:absolute;left:-35px;top:6px;width:12px;height:12px;border-radius:999px;background:var(--lime-500);box-shadow:0 0 0 3px var(--bg-page)}
+.timeline b{font-weight:800;font-size:15px}
+.timeline span{display:block;font-size:14px;color:var(--text-body);margin-top:2px}
+.timeline .yr{font-size:12px;font-weight:800;letter-spacing:.1em;color:var(--text-accent)}
+/* ============================================================
+   TWOO STRUCTURE LAYER — 챕터 내러티브 · 타이포 인덱스
+   (wearetwoo.com 구조 차용: 챕터 스크롤 / 스테이트먼트 / 인덱스 행)
+   ============================================================ */
+/* 챕터 — 상단 헤어라인 + [라벨 | 콘텐츠] 2컬럼, 라벨 sticky */
+.chapter{border-top:1px solid var(--border-strong);padding:var(--space-10) 0 var(--space-24)}
+.chapter__grid{max-width:var(--container);margin:0 auto;padding:0 var(--gutter-pc);display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;align-items:start}
+.chapter__label{position:sticky;top:88px;font-size:12px;font-weight:700;letter-spacing:var(--ls-overline);text-transform:uppercase;color:var(--text-muted);display:flex;gap:10px;align-items:baseline}
+.chapter__label .num{font-weight:900;color:var(--text-strong);font-variant-numeric:tabular-nums}
+@media(max-width:820px){
+  .chapter{padding:var(--space-8) 0 var(--space-16)}
+  .chapter__grid{grid-template-columns:1fr;gap:22px;padding:0 var(--gutter-mo)}
+  .chapter__label{position:static}
+}
+/* 스테이트먼트 — 문장이 곧 레이아웃 */
+.statement{font-size:clamp(26px,4.2vw,56px);font-weight:800;letter-spacing:var(--ls-tight);line-height:1.12;margin:0;max-width:24ch;color:var(--text-strong);text-wrap:balance}
+.statement .dim{color:var(--ink-300)}
+.statement .mark{box-shadow:inset 0 -0.22em 0 var(--lime-500)}
+.statement--xl{font-size:clamp(34px,6.4vw,84px);line-height:1.04;letter-spacing:var(--ls-tighter);max-width:18ch}
+.chapter p.lead{font-size:clamp(15px,1.5vw,18px);color:var(--text-body);line-height:var(--lh-relaxed);max-width:52ch;margin:26px 0 0}
+/* 인덱스 리스트 — 거대 타이포 행 (Twoo 작업 목록 문법) */
+.index-list{border-top:1px solid var(--border-strong);margin-top:34px}
+.index-row{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:18px;align-items:baseline;padding:22px 4px;border-bottom:1px solid var(--border-hairline);text-decoration:none;position:relative;transition:padding-left var(--dur-base) var(--ease-emphasis),background var(--dur-fast)}
+.index-row .no{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--text-muted)}
+.index-row .ttl{font-size:clamp(22px,3.4vw,44px);font-weight:800;letter-spacing:var(--ls-tight);line-height:1.05;color:var(--text-strong);transition:transform var(--dur-base) var(--ease-emphasis)}
+.index-row .meta{font-size:13px;font-weight:600;color:var(--text-body);text-align:right;display:flex;flex-direction:column;gap:2px;align-items:flex-end}
+.index-row .meta b{color:var(--text-accent);font-weight:800;font-variant-numeric:tabular-nums}
+.index-row::after{content:"→";position:absolute;right:6px;top:50%;transform:translate(8px,-50%);opacity:0;font-size:20px;font-weight:800;color:var(--text-strong);transition:opacity var(--dur-fast),transform var(--dur-base) var(--ease-emphasis)}
+.index-row:hover{padding-left:16px;background:var(--accent-tint)}
+.index-row:hover::after{opacity:1;transform:translate(0,-50%)}
+.index-row:hover .meta{padding-right:26px}
+@media(max-width:640px){
+  .index-row{grid-template-columns:40px minmax(0,1fr)}
+  .index-row .meta{grid-column:2;flex-direction:row;gap:10px;align-items:baseline;text-align:left}
+  .index-row::after{display:none}
+  .index-row:hover{padding-left:4px}
+}
+/* 서비스 대형 행 — 제목 + 접힌 설명 */
+.cap-row .desc{grid-column:2;font-size:14px;color:var(--text-body);max-width:48ch;line-height:1.6;margin-top:6px}
+/* 인라인 클라이언트 — ∙ 구분 워드 스트림 */
+.clients-stream{font-size:clamp(16px,2vw,22px);font-weight:600;line-height:1.9;color:var(--ink-300);letter-spacing:var(--ls-normal);max-width:100%}
+.clients-stream b{color:var(--text-strong);font-weight:700}
+.clients-stream .sep{color:var(--lime-500);padding:0 .45em;font-weight:900}
+/* 프로세스 문장 루프 — Think, do, try, repeat 문법 */
+.loop-line{font-size:clamp(24px,3.6vw,48px);font-weight:800;letter-spacing:var(--ls-tight);line-height:1.25;color:var(--ink-300);margin:0}
+.loop-line b{color:var(--text-strong)}
+.loop-line .ret{color:var(--text-accent)}
+/* 가용성/컨택트 챕터 — 거대 메일 링크 */
+.avail{font-size:clamp(15px,1.6vw,19px);color:var(--text-body);margin:0 0 22px;max-width:50ch;line-height:var(--lh-relaxed)}
+.mail-link{display:inline-block;font-size:clamp(26px,5vw,64px);font-weight:900;letter-spacing:var(--ls-tight);color:var(--text-strong);text-decoration:none;border-bottom:4px solid var(--lime-500);line-height:1.15;transition:border-color var(--dur-fast);word-break:break-all}
+.mail-link:hover{border-color:var(--ink-900)}
+/* 인사이트 미니 행 */
+.mini-row{display:flex;justify-content:space-between;gap:20px;align-items:baseline;padding:16px 4px;border-bottom:1px solid var(--border-hairline);text-decoration:none;transition:padding-left var(--dur-base) var(--ease-emphasis),background var(--dur-fast)}
+.mini-row:hover{padding-left:14px;background:var(--accent-tint)}
+.mini-row .t{font-size:clamp(16px,1.8vw,20px);font-weight:700;letter-spacing:var(--ls-normal);color:var(--text-strong);line-height:1.35}
+.mini-row .d{font-size:12.5px;font-weight:600;color:var(--text-muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+/* 히어로 메타 라인 (Twoo 상단 소개 문법) */
+.hero-meta{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;font-weight:600;letter-spacing:.06em;color:var(--text-muted);text-transform:uppercase;padding:26px 0 0}
+/* ============================================================
+   목록 필터 / 상세 / 폼 / 상태 패턴
+   ============================================================ */
+.filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:var(--space-8)}
+.filter-chip{font-size:13px;font-weight:700;padding:8px 16px;border-radius:999px;border:none;background:transparent;box-shadow:inset 0 0 0 1px var(--border-hairline);color:var(--text-body);cursor:pointer;transition:all var(--dur-fast)}
+.filter-chip:hover{box-shadow:inset 0 0 0 1px var(--ink-900);color:var(--text-strong)}
+.filter-chip.is-active{background:var(--ink-900);color:var(--on-ink);box-shadow:none}
+.filter-group{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filter-label{font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--text-muted);text-transform:uppercase;margin-right:4px}
+/* 상세 페이지 */
+.detail-head{padding:var(--space-20) 0 var(--space-10);border-bottom:1px solid var(--border-hairline)}
+.detail-head h1{font-size:var(--fs-h1);font-weight:900;letter-spacing:var(--ls-tight);line-height:var(--lh-snug);margin:16px 0 18px;max-width:24ch}
+.meta-row{display:flex;gap:28px;flex-wrap:wrap}
+.meta-row div b{display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);margin-bottom:4px}
+.meta-row div span{font-size:14px;font-weight:600;color:var(--text-strong)}
+.detail-body{padding:var(--space-12) 0 var(--space-20);display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:56px}
+@media(max-width:960px){.detail-body{grid-template-columns:1fr}}
+.prose{font-size:16px;line-height:var(--lh-relaxed);color:var(--text-body)}
+.prose h2{font-size:var(--fs-h3);font-weight:800;letter-spacing:var(--ls-normal);color:var(--text-strong);margin:44px 0 14px;scroll-margin-top:90px}
+.prose h2:first-child{margin-top:0}
+.prose p{margin:0 0 18px}
+.prose blockquote{margin:28px 0;padding:20px 24px;border-left:3px solid var(--lime-500);background:var(--accent-tint);color:var(--text-strong);font-weight:600;border-radius:0 10px 10px 0}
+.prose ul{padding-left:20px;margin:0 0 18px}
+.prose li{margin-bottom:8px}
+.result-band{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:var(--border-hairline);border:1px solid var(--border-hairline);margin:28px 0}
+.result-band div{background:var(--bg-page);padding:22px 20px}
+.result-band .n{font-size:clamp(26px,3vw,38px);font-weight:900;letter-spacing:var(--ls-tight);font-variant-numeric:tabular-nums}
+.result-band .n em{font-style:normal;color:var(--text-accent)}
+.result-band .l{font-size:12.5px;color:var(--text-muted);margin-top:4px}
+.toc{position:sticky;top:96px;align-self:start;font-size:13.5px}
+.toc b{display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);margin-bottom:12px}
+.toc a{display:block;color:var(--text-body);text-decoration:none;padding:6px 0 6px 14px;border-left:2px solid var(--border-hairline);transition:all var(--dur-fast)}
+.toc a:hover,.toc a.is-here{color:var(--text-strong);border-color:var(--lime-500);font-weight:600}
+@media(max-width:960px){.toc{display:none}}
+.pn-nav{display:flex;justify-content:space-between;gap:12px;padding:var(--space-8) 0 var(--space-16);border-top:1px solid var(--border-hairline)}
+.pn-nav a{font-size:14px;font-weight:700;text-decoration:none;color:var(--text-strong)}
+.pn-nav a[aria-disabled="true"]{opacity:.35;pointer-events:none}
+/* ============================================================
+   F-CON — 문의 폼 (REQ-006/106/108)
+   ============================================================ */
+.contact-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:64px}
+@media(max-width:920px){.contact-grid{grid-template-columns:1fr;gap:40px}}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.form .full{grid-column:1/-1}
+@media(max-width:640px){.form{grid-template-columns:1fr}}
+.field{display:flex;flex-direction:column;gap:7px}
+.field>span{font-size:13px;font-weight:700;color:var(--text-strong)}
+.field .req{color:var(--danger)}
+.field input,.field select,.field textarea{font-family:var(--font-sans);font-size:14px;color:var(--text-strong);background:var(--surface);border:none;border-radius:7px;box-shadow:inset 0 0 0 1px var(--border-hairline);padding:12px 13px;transition:box-shadow var(--dur-fast)}
+.field textarea{min-height:140px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;box-shadow:inset 0 0 0 1.5px var(--ink-900)}
+.field.is-error input,.field.is-error textarea,.field.is-error select{box-shadow:inset 0 0 0 1.5px var(--danger)}
+.field .msg{font-size:12px;color:var(--text-muted);min-height:16px}
+.field.is-error .msg{color:var(--danger);font-weight:600}
+.consent{display:flex;align-items:flex-start;gap:10px;font-size:13.5px;color:var(--text-body)}
+.consent input{width:18px;height:18px;margin-top:1px;accent-color:var(--lime-600)}
+.consent a{color:var(--text-strong);font-weight:600}
+.hp-field{position:absolute;left:-9999px;opacity:0;height:0;overflow:hidden}
+.info-card{background:var(--surface);box-shadow:inset 0 0 0 1px var(--border-hairline);border-radius:12px;padding:26px;margin-bottom:14px}
+.info-card b{display:block;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px}
+.info-card p{margin:0;font-size:15px;font-weight:600;color:var(--text-strong)}
+.info-card small{display:block;font-size:13px;color:var(--text-body);margin-top:4px;font-weight:400}
+/* 상태 패턴 — 빈값/에러/로딩 */
+.empty{border:1px dashed var(--border-hairline);border-radius:12px;padding:56px 24px;text-align:center}
+.empty b{display:block;font-size:16px;font-weight:800;margin-bottom:6px}
+.empty p{font-size:14px;color:var(--text-body);margin:0 0 18px}
+.skeleton{border-radius:12px;background:linear-gradient(90deg,var(--ink-50) 25%,var(--ink-100) 50%,var(--ink-50) 75%);background-size:200% 100%;animation:sk 1.4s ease infinite;min-height:220px}
+@keyframes sk{to{background-position:-200% 0}}
+/* 토스트 */
+.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);z-index:var(--z-toast);background:var(--ink-900);color:var(--on-ink);font-size:14px;font-weight:600;padding:13px 22px;border-radius:10px;box-shadow:var(--shadow-lg);opacity:0;visibility:hidden;transition:all var(--dur-base) var(--ease-emphasis);display:flex;align-items:center;gap:10px;max-width:calc(100vw - 40px)}
+.toast.is-show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+.toast .ic{width:8px;height:8px;border-radius:99px;background:var(--lime-500);flex:none}
+.toast.is-error .ic{background:var(--danger)}
+/* ============================================================
+   F-COM-FTR — 푸터
+   ============================================================ */
+.footer{background:var(--surface-ink);color:var(--on-surface-ink-muted);margin-top:var(--space-20)}
+.footer__top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding:var(--space-16) 0 var(--space-12)}
+@media(max-width:820px){.footer__top{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.footer__top{grid-template-columns:1fr}}
+.footer__logo{font-size:24px;letter-spacing:var(--ls-tight);color:var(--on-surface-ink);display:flex;align-items:baseline;gap:5px}
+.footer__logo .dot{width:6px;height:6px;border-radius:99px;background:var(--lime-500);transform:translateY(-11px)}
+.footer__tag{font-size:14px;line-height:1.65;margin:14px 0 0;max-width:34ch}
+.footer h4{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--on-surface-ink);margin:0 0 14px}
+.footer ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.footer a{color:var(--on-surface-ink-muted);text-decoration:none;font-size:14px;transition:color var(--dur-fast)}
+.footer a:hover{color:var(--on-surface-ink)}
+.footer__bottom{border-top:1px solid rgba(246,245,241,.12);padding:22px 0;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px}
+.footer__bottom a{font-size:12.5px;font-weight:600}
+/* 404 */
+.err-page{min-height:60vh;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.err-page .code{font-size:var(--fs-display-1);font-weight:900;letter-spacing:var(--ls-tighter);line-height:1;color:var(--ink-150)}
+.err-page h1{font-size:var(--fs-h2);font-weight:800;margin:14px 0 10px}
+.err-page p{color:var(--text-body);margin:0 0 26px}
+/* 라우팅 */
+.route{display:none}
+.route.is-current{display:block;animation:pageIn .38s var(--ease-standard)}
+@keyframes pageIn{from{opacity:0;transform:translateY(10px)}}
+
+/* ============================================================
+   HSCROLL — 브랜드 스토리 가로 인터랙션 (Twoo · PC 스크롤 하이재킹)
+   세로 스크롤 진행률 → 가로 트랙 이동. MO/reduce-motion은 세로 폴백.
+   ============================================================ */
+.hscroll{position:relative;background:var(--surface-ink);color:var(--on-surface-ink)}
+.hscroll__viewport{position:sticky;top:0;height:100vh;overflow:hidden;display:flex;align-items:stretch}
+.hscroll__track{display:flex;height:100%;will-change:transform}
+.hpanel{flex:0 0 100vw;height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 clamp(24px,7vw,110px);position:relative}
+.hpanel__ghost{position:absolute;right:clamp(8px,4vw,60px);bottom:4vh;font-size:clamp(120px,26vw,360px);font-weight:900;letter-spacing:var(--ls-tighter);line-height:1;color:transparent;-webkit-text-stroke:1px rgba(246,245,241,.14);user-select:none;pointer-events:none}
+.hpanel__kicker{font-size:12px;font-weight:700;letter-spacing:var(--ls-overline);text-transform:uppercase;color:var(--lime-400);margin-bottom:20px}
+.hpanel__title{font-size:clamp(34px,5.6vw,84px);font-weight:900;letter-spacing:var(--ls-tight);line-height:1.02;margin:0 0 24px;max-width:16ch;color:var(--on-surface-ink)}
+.hpanel__title .dim{color:rgba(246,245,241,.32)}
+.hpanel__title .lm{color:var(--lime-500)}
+.hpanel__body{font-size:clamp(15px,1.5vw,18px);line-height:var(--lh-relaxed);color:var(--on-surface-ink-muted);max-width:46ch;margin:0}
+.hscroll__progress{position:absolute;left:clamp(24px,7vw,110px);bottom:34px;display:flex;align-items:center;gap:14px;z-index:2}
+.hscroll__bar{width:min(180px,26vw);height:2px;background:rgba(246,245,241,.18);position:relative;overflow:hidden}
+.hscroll__bar i{position:absolute;inset:0;background:var(--lime-500);transform-origin:left;transform:scaleX(0)}
+.hscroll__count{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--on-surface-ink-muted);font-variant-numeric:tabular-nums}
+.hscroll__count b{color:var(--on-surface-ink)}
+.hscroll__hint{position:absolute;right:clamp(24px,7vw,110px);bottom:34px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--on-surface-ink-muted);z-index:2}
+
+/* 히어로 패널 — 가로 스와이프 첫 화면 (EXE 워드마크 강조) */
+.hpanel--hero .hpanel__kicker{color:var(--on-surface-ink-muted)}
+.hero-wm{font-size:clamp(56px,17vw,240px);letter-spacing:var(--ls-tighter);line-height:.9;color:var(--on-surface-ink);margin:0 0 34px;display:flex;align-items:baseline}
+.hero-wm .wm-b{font-weight:900}
+.hero-wm .wm-l{font-weight:300;color:rgba(246,245,241,.44)}
+.hero-wm .wm-dot{width:.09em;height:.09em;border-radius:999px;background:var(--lime-500);margin-left:.06em;transform:translateY(-1.1em);animation:dotBlink 1.6s steps(2,start) infinite}
+@keyframes dotBlink{50%{opacity:0}}
+.hpanel--hero .hpanel__title{font-size:clamp(28px,3.6vw,54px);max-width:22ch}
+@media(prefers-reduced-motion:reduce){.hero-wm .wm-dot{animation:none}}
+/* MO/reduce-motion 폴백 — 세로 스택 */
+@media(max-width:960px){
+  .hscroll{height:auto !important}
+  .hscroll__viewport{position:static;height:auto;overflow:visible}
+  .hscroll__track{flex-direction:column;transform:none !important;height:auto}
+  .hpanel{flex:none;height:auto;min-height:0;padding:64px var(--gutter-mo)}
+  .hpanel__ghost{display:none}
+  .hscroll__progress,.hscroll__hint{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .hscroll{height:auto !important}
+  .hscroll__viewport{position:static;height:auto;overflow:visible}
+  .hscroll__track{flex-direction:column;transform:none !important;height:auto}
+  .hpanel{flex:none;height:auto;padding:64px clamp(24px,7vw,110px)}
+  .hscroll__progress,.hscroll__hint{display:none}
+}
+/* 테마 크로스페이드 — 스크롤 연동 전환을 부드럽게 */
+html{transition:background .5s var(--ease-standard)}
+body,.gnb,.card,.index-row,.mini-row,.fw-cell{transition-property:background,background-color,color,box-shadow,border-color;transition-duration:.5s;transition-timing-function:var(--ease-standard)}
+
+/* 접근성 — 모션 최소화 (REQ-002/102) */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}
+  [data-reveal]{opacity:1;transform:none}
+  .logo-track{animation:none;flex-wrap:wrap}
+}
+@media print{.gnb,.footer,.hero__scroll{display:none}}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">본문 바로가기</a>
+
+<!-- ===== F-COM-GNB · 글로벌 내비 (REQ-001) ===== -->
+<header class="gnb" id="gnb">
+  <div class="gnb__inner">
+    <a href="#/" class="gnb__logo" data-route-link aria-label="EXELIENT 홈"><span><span class="wm-b">EXE</span><span class="wm-l">LIENT</span></span><span class="dot" aria-hidden="true"></span></a>
+    <nav class="gnb__nav" aria-label="주 메뉴">
+      <div class="gnb__item"><a class="gnb__link" data-nav="about" href="#/about">ABOUT</a></div>
+      <div class="gnb__item">
+        <a class="gnb__link" data-nav="services" href="#/services" aria-haspopup="true">SERVICES</a>
+        <div class="gnb__dropdown" role="menu">
+          <a class="gnb__dd-link" role="menuitem" href="#/services/seo"><b>SEO</b><span>검색엔진 최적화</span></a>
+          <a class="gnb__dd-link" role="menuitem" href="#/services/geo"><b>GEO</b><span>AI 엔진 최적화</span></a>
+          <a class="gnb__dd-link" role="menuitem" href="#/services/ga4"><b>GA4</b><span>셋팅 및 운영</span></a>
+          <a class="gnb__dd-link" role="menuitem" href="#/services/analytics"><b>Deep Dive</b><span>웹/앱 데이터 분석 컨설팅</span></a>
+        </div>
+      </div>
+      <div class="gnb__item"><a class="gnb__link" data-nav="work" href="#/work">WORK</a></div>
+      <div class="gnb__item"><a class="gnb__link" data-nav="insights" href="#/insights">INSIGHTS</a></div>
+      <div class="gnb__item"><a class="gnb__link" data-nav="contact" href="#/contact">CONTACT</a></div>
+    </nav>
+    <div class="gnb__tools">
+      <div class="lang-toggle" role="group" aria-label="언어 선택">
+        <button type="button" data-lang="kr" class="is-on">KR</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <div class="theme-toggle" role="group" aria-label="테마 선택">
+        <button type="button" data-mode="light" class="is-on" aria-label="라이트 모드">☀</button>
+        <button type="button" data-mode="dark" aria-label="다크 모드">☾</button>
+      </div>
+      <a href="#/contact" class="btn btn--ink gnb__cta">프로젝트 문의</a>
+      <button class="gnb__burger" id="burger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- 모바일 풀스크린 메뉴 -->
+<nav class="mobile-menu" id="mobileMenu" aria-label="모바일 메뉴">
+  <button class="mobile-menu__close" id="menuClose" aria-label="메뉴 닫기">✕</button>
+  <a href="#/about">ABOUT</a>
+  <a href="#/services">SERVICES</a>
+  <a class="sub" href="#/services/seo">SEO · 검색엔진 최적화</a>
+  <a class="sub" href="#/services/geo">GEO · AI 엔진 최적화</a>
+  <a class="sub" href="#/services/ga4">GA4 · 셋팅 및 운영</a>
+  <a class="sub" href="#/services/analytics">Deep Dive · 데이터 분석</a>
+  <a href="#/work">WORK</a>
+  <a href="#/insights">INSIGHTS</a>
+  <a href="#/contact">CONTACT</a>
+  <div class="mobile-menu__tools">
+    <a href="#/contact" class="btn btn--primary">프로젝트 문의</a>
+    <button type="button" class="btn btn--outline" id="mobileTheme">테마 전환</button>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ============ F-HOME · 메인 — 챕터 내러티브 원페이지 (Twoo 구조) ============ -->
+<section class="route" data-route="home">
+
+  <!-- HERO · 가로 스와이프 — 세로 스크롤 → 가로 이동 (Twoo · REQ-002) -->
+  <div class="hscroll" id="brandHscroll" data-panels="6">
+    <div class="hscroll__viewport">
+      <div class="hscroll__track" id="hsTrack">
+        <div class="hpanel hpanel--hero">
+          <div class="hpanel__kicker">EXELIENT® — Entity Branding Consultancy · Seoul, KR · Since 2018</div>
+          <div class="hero-wm" aria-hidden="true"><span class="wm-b">EXE</span><span class="wm-l">LIENT</span><span class="wm-dot"></span></div>
+          <h1 class="hpanel__title">새로운 스토리텔링 시대,<br><span class="lm">브랜드를 실행하다.</span></h1>
+          <p class="hpanel__body">The new era of storytelling. <b style="color:var(--on-surface-ink);font-weight:700">Run your brand.</b></p>
+        </div>
+        <div class="hpanel">
+          <div class="hpanel__ghost" aria-hidden="true">EXE</div>
+          <div class="hpanel__kicker">Brand Story · 01</div>
+          <h2 class="hpanel__title">이야기의 화자가<br><span class="lm">바뀌었다.</span></h2>
+          <p class="hpanel__body">키워드 순위의 시대에는 사용자가 브랜드를 찾아왔습니다. AI 검색의 시대에는 AI가 브랜드를 골라 이야기합니다. 그 이야기에 인용되는 브랜드가 되는 것 — 그것이 EXELIENT가 하는 일입니다.</p>
+        </div>
+        <div class="hpanel">
+          <div class="hpanel__ghost" aria-hidden="true">E</div>
+          <div class="hpanel__kicker">E — 01</div>
+          <h2 class="hpanel__title"><span class="lm">Entity</span><br>AI가 인식하는 브랜드</h2>
+          <p class="hpanel__body">공식 정보의 구조화와 엔티티 매핑. AI가 브랜드를 하나의 일관된 실체로 이해할 때, 비로소 답변 속에 등장할 수 있습니다.</p>
+        </div>
+        <div class="hpanel">
+          <div class="hpanel__ghost" aria-hidden="true">X</div>
+          <div class="hpanel__kicker">X — 02</div>
+          <h2 class="hpanel__title"><span class="lm">eXperience</span><br>BX × UX × AX</h2>
+          <p class="hpanel__body">사람이 사랑하는 브랜드(BX), 사용자가 머무는 경험(UX), AI가 인용하는 구조(AX). 세 경험을 하나의 브랜드 언어로 교차 설계합니다.</p>
+        </div>
+        <div class="hpanel">
+          <div class="hpanel__ghost" aria-hidden="true">.exe</div>
+          <div class="hpanel__kicker">E — 03</div>
+          <h2 class="hpanel__title"><span class="lm">Execution</span><br>측정되는 실행 <span class="dim">.exe</span></h2>
+          <p class="hpanel__body">GA4 데이터 인프라 위에서 모든 실행이 측정됩니다. 실행의 성과는 AI 인용으로 이어지고, 인용은 다시 엔티티를 강화합니다 — 자기증명 루프.</p>
+        </div>
+        <div class="hpanel">
+          <div class="hpanel__ghost" aria-hidden="true">®</div>
+          <div class="hpanel__kicker">Thesis</div>
+          <h2 class="hpanel__title">Beyond Visible,<br><span class="lm">Toward Cited.</span></h2>
+          <p class="hpanel__body">보이는 것을 넘어, 인용되는 브랜드로. 사람이 기억하고, AI가 인용하는 브랜드를 설계합니다.</p>
+        </div>
+      </div>
+      <div class="hscroll__progress" aria-hidden="true"><div class="hscroll__bar"><i id="hsBar"></i></div><span class="hscroll__count"><b id="hsNow">01</b> / 06</span></div>
+      <div class="hscroll__hint" aria-hidden="true">Scroll →</div>
+    </div>
+  </div>
+
+  <!-- CH.01 · What we do — 서비스 인덱스 (REQ-003) -->
+  <div class="chapter">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">01</span><span>What we do</span></div>
+      <div>
+        <h2 class="statement" data-reveal>Full Funnel을 진단하고,<br>검색부터 <span class="dim">AI 답변까지</span> 실행합니다.</h2>
+        <div class="index-list" id="homeServiceCards" data-reveal></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CH.02 · Selected Work — 타이포 인덱스 (REQ-004/016 · 0건 시 숨김) -->
+  <div class="chapter" id="homeWorkSection">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">02</span><span>Selected Work</span></div>
+      <div>
+        <h2 class="statement" data-reveal>숫자로 증명한<br>프로젝트.</h2>
+        <div class="index-list" id="homeWorkCards" data-reveal></div>
+        <div id="statBand" data-reveal style="display:flex;gap:clamp(24px,5vw,64px);flex-wrap:wrap;padding:34px 4px 0">
+          <div><div class="stat__num" style="font-size:clamp(28px,3.4vw,44px)"><span data-count="434">0</span><span class="unit">%</span></div><div class="stat__label">자연검색 트래픽 · 최고치</div></div>
+          <div><div class="stat__num" style="font-size:clamp(28px,3.4vw,44px)"><span data-count="1500">0</span><span class="unit">%+</span></div><div class="stat__label">ROI · Conversion Value</div></div>
+          <div><div class="stat__num" style="font-size:clamp(28px,3.4vw,44px)"><span data-count="37">0</span><span class="unit">개국</span></div><div class="stat__label">글로벌 SEO 운영</div></div>
+          <div><div class="stat__num" style="font-size:clamp(28px,3.4vw,44px)"><span data-count="60">0</span><span class="unit">+</span></div><div class="stat__label">클라이언트 &amp; 파트너</div></div>
+        </div>
+        <p style="margin:30px 0 0;padding:0 4px"><a class="link-underline" href="#/work">전체 사례 인덱스 →</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CH.03 · How we work — 루프 문장 + BX×UX×AX -->
+  <div class="chapter">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">03</span><span>How we work</span></div>
+      <div data-reveal>
+        <p class="loop-line"><b>진단하고,</b> 설계하고,<br><b>실행하고,</b> 측정하고… <span class="ret">다시, 인용으로.</span></p>
+        <p class="lead">마법은 없습니다. 사람이 사랑하는 브랜드(BX), 사용자가 머무는 경험(UX), AI가 인용하는 구조(AX) — 세 축을 하나의 언어로 교차 설계하고, GA4 데이터 위에서 모든 실행을 측정합니다. 실행의 결과는 다시 엔티티를 강화합니다.</p>
+        <p style="margin:26px 0 0"><a class="link-underline" href="#/about">프레임워크 자세히 보기</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CH.04 · Clients — 워드 스트림 (REQ-016) -->
+  <div class="chapter">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">04</span><span>Clients &amp; Partners</span></div>
+      <p class="clients-stream" id="clientsStream" data-reveal></p>
+    </div>
+  </div>
+
+  <!-- CH.05 · Insights — 미니 인덱스 (REQ-005 · 0건 시 숨김) -->
+  <div class="chapter" id="homeInsightSection">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">05</span><span>Insights</span></div>
+      <div>
+        <h2 class="statement" data-reveal>AI 검색 시대를<br>읽는 관점.</h2>
+        <div class="index-list" id="homeInsightCards" data-reveal style="margin-top:28px"></div>
+        <p style="margin:26px 0 0;padding:0 4px"><a class="link-underline" href="#/insights">모든 글 보기</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CH.06 · Contact — 가용성 선언 (REQ-006) -->
+  <div class="chapter">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">06</span><span>New Projects</span></div>
+      <div data-reveal>
+        <p class="avail"><span class="wm-b" style="color:var(--text-strong)">EXE</span><span class="wm-l" style="color:var(--text-strong)">LIENT</span>®는 새로운 프로젝트와 협업을 기다립니다.<br>브랜드가 AI 답변에서 어떻게 등장하는지, 무료 진단부터 시작하세요.</p>
+        <a class="mail-link" href="#/contact">contact@exelient.co.kr</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ F-ABT · 회사소개 ============ -->
+<section class="route" data-route="about">
+  <div class="container page-hero">
+    <div class="overline">About EXELIENT</div>
+    <h1>보이는 것을 넘어,<br>인용되는 브랜드로.</h1>
+    <p>엑셀리언트는 2018년부터 데이터 기반 Digital Marketing Strategy, SEO, GEO, Analytics, CRO 서비스로 기업의 디지털 성장을 설계해 온 전문 컨설팅 회사입니다.</p>
+  </div>
+  <div class="chapter">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">01</span><span>Why Now</span></div>
+      <div data-reveal>
+        <h2 class="statement">검색창이 아니라,<br><span class="mark">답변창</span>의 시대.</h2>
+        <p class="lead">사용자는 더 이상 10개의 링크를 비교하지 않습니다. AI가 요약한 하나의 답변을 신뢰합니다. 그 답변 안에 존재하지 않는 브랜드는, 시장에 존재하지 않는 것과 같습니다. 지금이 엔티티 브랜딩을 시작할 시점인 이유입니다.</p>
+      </div>
+    </div>
+  </div>
+  <div class="chapter">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">02</span><span>How We Work</span></div>
+      <div>
+        <h2 class="statement" data-reveal>BX × UX × AX<br>프레임워크.</h2>
+        <p class="lead" data-reveal>순수 기술 에이전시도, 전통 브랜딩 에이전시도 커버하지 못하는 교차점 — 그곳이 엑셀리언트의 자리입니다.</p>
+        <div class="framework" data-reveal style="margin-top:34px">
+          <div class="fw-cell"><div class="x">B<i>X</i></div><b>Brand Experience</b><p>사람이 사랑하는 브랜드. 내러티브·아이덴티티·일관된 메시지 체계를 설계합니다.</p></div>
+          <div class="fw-cell"><div class="x">U<i>X</i></div><b>User Experience</b><p>사용자가 머무는 경험. 데이터 기반 UX 진단과 전환 설계로 여정을 최적화합니다.</p></div>
+          <div class="fw-cell"><div class="x">A<i>X</i></div><b>AI Experience</b><p>AI가 인용하는 구조. 엔티티 매핑·구조화 데이터·GEO 콘텐츠로 답변 점유율을 확보합니다.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="chapter">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">03</span><span>History</span></div>
+      <ul class="timeline" data-reveal>
+        <li><span class="yr">2018</span><b>주식회사 엑셀리언트 설립</b><span>서울 강남구 삼성동 · SEO/Analytics 컨설팅 시작</span></li>
+        <li><span class="yr">2020</span><b>글로벌 SEO 운영 체계 구축</b><span>Kia 37개국 · 삼성반도체 4개 언어 등 다국어 프로젝트 확대</span></li>
+        <li><span class="yr">2023</span><b>GA4 데이터 인프라 서비스 정식화</b><span>데이터 품질 표준화 → KPI 설계 → 대시보드 4단계 프로세스</span></li>
+        <li><span class="yr">2025</span><b>GEO(AI 엔진 최적화) 서비스 론칭</b><span>AI Overview · ChatGPT · Perplexity 답변 점유율 컨설팅</span></li>
+        <li><span class="yr">2026</span><b>Entity Branding으로 리포지셔닝</b><span>BX×UX×AX 프레임워크 발표 · "Beyond Visible, Toward Cited"</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="chapter">
+    <div class="chapter__grid">
+      <div class="chapter__label"><span class="num">04</span><span>Clients</span></div>
+      <p class="clients-stream" id="clientsStreamAbout" data-reveal></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ F-SVC · 서비스 인덱스 ============ -->
+<section class="route" data-route="services">
+  <div class="container page-hero">
+    <div class="overline">Services</div>
+    <h1>검색부터 AI 답변까지,<br>성장의 전 구간을 실행합니다.</h1>
+    <p>사이트 구조 · 콘텐츠 · 데이터 · AI 인용 — 네 개의 실행 축이 하나의 증명 루프로 연결됩니다.</p>
+  </div>
+  <div class="container" style="padding-bottom:var(--space-24)">
+    <div class="index-list" id="svcIndexCards"></div>
+  </div>
+</section>
+
+<!-- ============ F-SVC-* · 서비스 상세 (4종 공통 템플릿) ============ -->
+<section class="route" data-route="service-detail"><div id="svcDetailOutlet"></div></section>
+
+<!-- ============ F-WRK · 사례 목록 — 타이포 인덱스 ============ -->
+<section class="route" data-route="work">
+  <div class="container page-hero">
+    <div class="overline">Work</div>
+    <h1>숫자로 말하는<br>사례 인덱스.</h1>
+    <p>산업과 서비스로 필터링해 프로젝트를 살펴보세요.</p>
+  </div>
+  <div class="container" style="padding-bottom:var(--space-24)">
+    <div class="filter-bar" role="group" aria-label="사례 필터">
+      <div class="filter-group"><span class="filter-label">산업</span><span id="indFilters"></span></div>
+      <div class="filter-group" style="margin-left:12px"><span class="filter-label">서비스</span><span id="svcFilters"></span></div>
+    </div>
+    <div class="index-list" id="workGrid" aria-live="polite" style="margin-top:0"></div>
+    <div class="empty" id="workEmpty" hidden>
+      <b>조건에 맞는 사례가 없습니다</b>
+      <p>필터를 변경하거나 초기화해 보세요.</p>
+      <button class="btn btn--outline" id="workReset">필터 초기화</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ F-WRK-DTL · 사례 상세 ============ -->
+<section class="route" data-route="work-detail"><div id="workDetailOutlet"></div></section>
+
+<!-- ============ F-INS · 인사이트 목록 ============ -->
+<section class="route" data-route="insights">
+  <div class="container page-hero">
+    <div class="overline">Insights</div>
+    <h1>AI 검색 시대를 읽는 관점.</h1>
+    <p>GEO · 엔티티 브랜딩 · GA4 데이터 전략에 대한 엑셀리언트의 생각.</p>
+  </div>
+  <div class="container" style="padding-bottom:var(--space-24)">
+    <div class="filter-bar" id="insCatFilters" role="group" aria-label="카테고리 필터"></div>
+    <div class="index-list" id="insGrid" aria-live="polite" style="margin-top:0"></div>
+    <div class="empty" id="insEmpty" hidden><b>해당 카테고리에 글이 없습니다</b><p>다른 카테고리를 선택해 보세요.</p></div>
+  </div>
+</section>
+
+<!-- ============ F-INS-DTL · 아티클 상세 ============ -->
+<section class="route" data-route="insight-detail"><div id="insDetailOutlet"></div></section>
+
+<!-- ============ F-CON · 문의 ============ -->
+<section class="route" data-route="contact">
+  <div class="container page-hero">
+    <div class="overline">Contact</div>
+    <h1>지금, 인용을 설계하세요.</h1>
+    <p>브랜드가 AI 답변에서 어떻게 등장하는지 무료로 진단해 드립니다. 영업일 기준 2일 내 회신합니다.</p>
+  </div>
+  <div class="container contact-grid" style="padding-bottom:var(--space-24)">
+    <form class="form" id="contactForm" novalidate>
+      <label class="field"><span>이름 <em class="req" aria-hidden="true">*</em></span><input name="name" autocomplete="name" required><span class="msg"></span></label>
+      <label class="field"><span>회사</span><input name="company" autocomplete="organization"><span class="msg"></span></label>
+      <label class="field"><span>이메일 <em class="req" aria-hidden="true">*</em></span><input name="email" type="email" autocomplete="email" required><span class="msg"></span></label>
+      <label class="field"><span>연락처</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel"><span class="msg"></span></label>
+      <label class="field full"><span>문의 유형 <em class="req" aria-hidden="true">*</em></span>
+        <select name="type" required>
+          <option value="">선택해 주세요</option>
+          <option>SEO 컨설팅</option><option>GEO · AI 엔진 최적화</option>
+          <option>GA4 셋팅 및 운영</option><option>데이터 분석 컨설팅</option><option>기타</option>
+        </select><span class="msg"></span></label>
+      <label class="field full"><span>문의 내용 <em class="req" aria-hidden="true">*</em></span><textarea name="message" required minlength="10" placeholder="프로젝트 배경과 목표를 알려주세요 (10자 이상)"></textarea><span class="msg"></span></label>
+      <label class="hp-field" aria-hidden="true">웹사이트<input name="website" tabindex="-1" autocomplete="off"></label>
+      <div class="field full">
+        <label class="consent"><input type="checkbox" name="consent" id="consent"><span>개인정보 수집·이용에 동의합니다. 수집 항목은 문의 응대 목적으로만 사용되며 처리 후 1년간 보관됩니다. <a href="#/privacy">처리방침 보기</a> <em class="req" aria-hidden="true">*</em></span></label>
+        <span class="msg" id="consentMsg"></span>
+      </div>
+      <div class="field full"><button type="submit" class="btn btn--primary" id="submitBtn">문의 보내기</button></div>
+    </form>
+    <aside>
+      <div class="info-card"><b>Office</b><p>서울시 강남구 삼성동</p><small>주식회사 엑셀리언트 · 2018년 설립</small></div>
+      <div class="info-card"><b>Email</b><p>contact@exelient.co.kr</p><small>제안서·소개서 요청도 환영합니다</small></div>
+      <div class="info-card"><b>Website</b><p>www.exelient.co.kr</p><small>SEO · GEO · GA4 · Deep Dive Analysis</small></div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ F-PRV · 정책 ============ -->
+<section class="route" data-route="privacy">
+  <div class="container page-hero">
+    <div class="overline">Policy</div>
+    <h1>개인정보처리방침 · 이용약관</h1>
+  </div>
+  <div class="container prose" style="max-width:820px;padding-bottom:var(--space-24)">
+    <h2>1. 수집하는 개인정보 항목</h2>
+    <p>문의 접수 시 이름, 이메일을 필수로, 회사명·연락처를 선택으로 수집합니다.</p>
+    <h2>2. 수집 및 이용 목적</h2>
+    <p>문의 응대, 서비스 제안, 계약 이행을 위한 커뮤니케이션 목적으로만 이용합니다.</p>
+    <h2>3. 보유 및 파기</h2>
+    <p>수집일로부터 1년간 보관 후 지체 없이 파기합니다. 이용자는 언제든 열람·정정·삭제를 요청할 수 있습니다.</p>
+    <h2>4. 제3자 제공</h2>
+    <p>법령에 근거한 경우를 제외하고 개인정보를 제3자에게 제공하지 않습니다.</p>
+    <blockquote>본 문서는 데모 구축용 샘플 정책입니다. 실서비스 오픈 시 법무 검토를 거친 전문이 어드민(A-SET)에서 관리됩니다.</blockquote>
+  </div>
+</section>
+
+<!-- ============ F-ERR · 404 ============ -->
+<section class="route" data-route="404">
+  <div class="container err-page">
+    <div class="code" aria-hidden="true">404</div>
+    <h1>페이지를 찾을 수 없습니다</h1>
+    <p>주소가 변경되었거나 삭제된 페이지입니다. AI는 당신을 인용하지만, 이 페이지는 인용할 수 없네요.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a href="#/" class="btn btn--ink">홈으로</a>
+      <a href="#/work" class="btn btn--outline">사례 보기</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== F-COM-FTR · 글로벌 푸터 (REQ-021/108) ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__logo"><span><span class="wm-b">EXE</span><span class="wm-l">LIENT</span></span><span class="dot" aria-hidden="true"></span></div>
+        <p class="footer__tag">새로운 스토리텔링 시대, 브랜드를 실행하다.<br>The new era of storytelling. Run your brand.</p>
+      </div>
+      <div><h4>Services</h4><ul>
+        <li><a href="#/services/seo">SEO</a></li><li><a href="#/services/geo">GEO</a></li>
+        <li><a href="#/services/ga4">GA4</a></li><li><a href="#/services/analytics">Deep Dive</a></li>
+      </ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a href="#/about">About</a></li><li><a href="#/work">Work</a></li>
+        <li><a href="#/insights">Insights</a></li><li><a href="#/contact">Contact</a></li>
+      </ul></div>
+      <div><h4>Info</h4><ul>
+        <li><a href="#/privacy">개인정보처리방침</a></li>
+        <li><a href="#/privacy">이용약관</a></li>
+        <li><a href="https://www.exelient.co.kr" target="_blank" rel="noopener">exelient.co.kr ↗</a></li>
+      </ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>주식회사 엑셀리언트 · 대표 유병곤 · 서울시 강남구 삼성동</span>
+      <span>© <span id="ftrYear"></span> EXELIENT Inc. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"><span class="ic"></span><span id="toastMsg"></span></div>
+<script>
+/* ============================================================
+   DATA — 크레덴셜(2026.05) 기반 콘텐츠
+   ============================================================ */
+const SERVICES = {
+  seo:{no:"01",short:"SEO",name:"검색엔진 최적화",en:"Search Engine Optimization",
+    desc:"사이트 구조부터 콘텐츠·운영까지 전 영역을 최적화하여 검색엔진 내 사용자 경험과 노출력을 강화합니다.",
+    intro:"검색엔진 내 경쟁력을 높이는 기술·콘텐츠·운영 통합 SEO 서비스. 검색엔진 친화적 구조와 사용자 의도에 맞는 콘텐츠 최적화, 운영 효율까지 고려합니다.",
+    process:[
+      {b:"진단",s:"운영 사이트 기준 SEO 관점 진단 · 신규 구축은 기획/설계 단계부터 컨설팅"},
+      {b:"가이드",s:"개선 가이드 및 컨설팅 기반 적용 가이드 제공"},
+      {b:"적용 검수",s:"오픈 전/후 적용 검수로 구현 품질 보증"},
+      {b:"모니터링",s:"오픈 후 모니터링 및 성과 측정 체계 운영"}],
+    effects:[
+      {b:"브랜드 인지도 향상",s:"검색결과 상위 노출로 고객 접점 증대"},
+      {b:"광고 의존도 감소",s:"자연 검색 유입 증가로 광고비 절감"},
+      {b:"이용행태 개선",s:"다양한 소비자 니즈에 맞는 콘텐츠 유입"},
+      {b:"탐색 좋은 구조",s:"검색엔진이 이해하기 쉽고 사용자가 탐색하기 좋은 웹사이트"}],
+    tags:["SEO"]},
+  geo:{no:"02",short:"GEO",name:"AI 엔진 최적화",en:"Generative Engine Optimization",
+    desc:"브랜드가 AI 답변에서 정확하게 노출되도록 웹사이트·콘텐츠·구조를 최적화합니다.",
+    intro:"GEO는 AI 검색 환경에서 브랜드가 올바르게 노출되도록 공식 정보를 구조화하고 답변 품질을 개선하는 서비스입니다. AI Overview · ChatGPT · Perplexity 등 주요 AI 엔진에서의 브랜드 노출 경쟁력을 높입니다.",
+    process:[
+      {b:"AI Parsing 진단",s:"AI가 브랜드 정보를 어떻게 읽는지 파싱 관점 진단"},
+      {b:"엔티티 매핑",s:"브랜드·제품·서비스를 AI가 인식하는 엔티티로 매핑"},
+      {b:"Structured Outputs 구축",s:"구조화 데이터(JSON-LD) 및 공식 정보 체계 구축"},
+      {b:"GEO 콘텐츠 최적화",s:"인용 가능성을 높이는 콘텐츠 구조·품질 최적화"},
+      {b:"성과 측정",s:"답변 점유율·인용 빈도 기준 성과 측정"}],
+    effects:[
+      {b:"비키워드 신규 유입",s:"추천형·질문형 AI 트래픽 확보 — 기존 SEO로 접근 불가한 신규 고객"},
+      {b:"답변 점유율 확보",s:"AI Overview·ChatGPT·Perplexity 답변에서 브랜드 우선 인용"},
+      {b:"AI 오정보 리스크 감소",s:"운영시간·가격 등 잘못된 정보 제공 상황 감소"},
+      {b:"전환율 상승",s:"필요한 정보를 즉시 획득 → 예약·문의 행동 증가 (전환 거리 단축)"}],
+    tags:["GEO"]},
+  ga4:{no:"03",short:"GA4",name:"GA4 셋팅 및 운영",en:"GA4 Setting & Operation",
+    desc:"정확한 데이터 수집부터 KPI 설계·대시보드까지, 비즈니스 의사결정이 가능한 데이터 인프라를 만듭니다.",
+    intro:"정확하고 세분화된 데이터 수집부터 KPI 구조 설계, 대시보드 구축까지 — 비즈니스 의사결정이 가능한 데이터 인프라를 만듭니다.",
+    process:[
+      {b:"데이터 품질 표준화",s:"누락·중복·비정상 데이터 검수를 통한 GA4 세팅 점검, 구조적 오류·중복 태그 제거"},
+      {b:"KPI 구조 설계",s:"비즈니스 목표 기반 성과지표 정의, 전환·행태 기반 핵심 KPI 매핑"},
+      {b:"데이터 수집 고도화",s:"CTA·주요 전환 지점 중심 태깅 전략, GTM 기반 태깅 구현 및 QA"},
+      {b:"열람·보고 체계",s:"의사결정 관점의 지표 구조 설계, 실시간 공유 가능한 대시보드 구축"}],
+    effects:[
+      {b:"신뢰성 높은 데이터",s:"검증된 수집 체계로 데이터 신뢰 확보"},
+      {b:"보고 체계 표준화",s:"조직 전체가 같은 지표로 소통"},
+      {b:"데이터 인프라",s:"향후 인사이트 도출·마케팅 활용 가능한 기반 마련"}],
+    tags:["GA4"]},
+  analytics:{no:"04",short:"Deep Dive",name:"웹/앱 데이터 분석 컨설팅",en:"Deep Dive Analysis",
+    desc:"GA4 축적 데이터로 문제 원인을 진단하고, 개선 전략 수립부터 테스트 운영까지 지원합니다.",
+    intro:"GA4 축적 데이터를 사용자 행동·전환 분석 바탕으로 문제 원인을 진단하고, 개선 방향/실행 전략 수립·테스트 운영까지 지원하는 인사이트 중심 최적화 컨설팅 서비스입니다.",
+    process:[
+      {b:"데이터 확보",s:"핵심 행동 기반 수집 구조 마련, 사용자 여정·전환 추적 가능한 환경 구축"},
+      {b:"주제별 심층 분석",s:"사용자 행태·KPI·유입 품질 추적 분석, 페이지·프로세스 단위 UX 진단"},
+      {b:"개선 제안",s:"실행 가능한 개선안 도출·우선순위 정의, UX/UI/콘텐츠/프로세스 전환 개선 설계"},
+      {b:"테스트 운영",s:"A/B Test·Pop-up Test·온사이트 실험 설계 및 운영"},
+      {b:"운영 기반 구조화",s:"핵심 KPI 기반 보고 체계, 경영진·실무진 모두 확인 가능한 분석 체계"}],
+    effects:[
+      {b:"인사이트 체계 확보",s:"핵심 원인까지 도출되는 분석 체계"},
+      {b:"개선 검증 체계",s:"데이터 기반 Before–After 개선 효과 측정"},
+      {b:"전환·사용성 성과",s:"실험 기반 전환·사용성 개선 성과 창출"},
+      {b:"의사결정 고도화",s:"KPI 기반 의사결정 수준 고도화"}],
+    tags:["분석"]}
+};
+const WORKS = [
+  {slug:"hyundai",client:"HYUNDAI",industry:"Automotive",services:["SEO","GA4","분석"],headline:"Google 검색 Index 120% 상승",
+   summary:"신규 사이트 구축 SEO, GA 고도화, 대시보드 구현, 데이터 기반 마케팅 채널 설정",
+   scope:"Hyundai Mobility Japan · Singapore(HMGICS) · CASPER · Mobility Adventure",
+   used:"SEO, GA settings, Data Analytics, Content Optimization, A/B Testing, Dashboard, KPI, Digital Marketing Strategy",
+   results:[{n:"120%",l:"Google 검색엔진 Index 수치 상승"},{n:"50%",l:"타겟 키워드 개수 증가"},{n:"32%",l:"검색엔진 자연유입 증가"}],
+   body:"현대자동차의 신규 사이트 구축 단계부터 SEO 관점 설계에 참여했습니다. 데이터 분석을 위한 Google Analytics 고도화 설정과 대시보드 구현으로, 유입 키워드 다양성을 확대하고 데이터 기반 마케팅 채널을 정착시켰습니다."},
+  {slug:"kia",client:"KIA",industry:"Automotive",services:["SEO"],headline:"37개국 글로벌 SEO 운영",
+   summary:"글로벌 웹사이트 SEO 정기 진단·오류 개선, 알고리즘 선제 대응, 국가별 최적화",
+   scope:"Kia.com K-WCMS 37개 사이트 — 호주·터키·페루·멕시코·인도네시아 외",
+   used:"SEO, GA, Digital Strategy, Data Dashboard, Regular Online Reporting",
+   results:[{n:"47%",l:"자연검색 트래픽 증가"},{n:"23%",l:"검색결과 타겟 키워드 증가"},{n:"37개국",l:"동시 운영 사이트"}],
+   body:"K-WCMS 기반 37개국 사이트의 SEO 정기 진단과 오류 개선, 퍼포먼스 모니터링을 수행했습니다. 최신 검색 엔진 알고리즘에 선제적으로 대응하며 국가별 SEO 지원 및 최적화를 병행했습니다."},
+  {slug:"lotte-hotels",client:"LOTTE HOTELS",industry:"Accommodation",services:["SEO","GEO","GA4","분석"],headline:"글로벌 자연검색 110% 증가",
+   summary:"공식 웹사이트 구축·운영, GA 상세 추적, A/B 테스트, Looker Studio 대시보드",
+   scope:"Lotte Hotel Global(6개 언어) · E-Shop · Lotte Resort(KR/EN) · Skyhill CC",
+   used:"Digital Marketing Roadmap & Strategy, SEO, GA4, Content Optimization, A/B Testing, Dashboard, KPI, GEO",
+   results:[{n:"35%",l:"자연 검색 트래픽 증가 (글로벌 110%)"},{n:"80%",l:"타게팅 키워드 확대"},{n:"50%",l:"자연검색 경유 온라인 컨버전 향상"},{n:"30%+",l:"이탈률 개선"}],
+   body:"롯데호텔 공식 웹사이트 구축부터 SEO·운영 관리, Google Analytics 활용 데이터 상세 추적과 인사이트 도출, 캠페인 성과 측정, A/B 테스트 제안·실행, UX/UI 분석까지 풀 사이클을 담당했습니다. GEO 적용으로 AI 검색 대응도 시작했습니다."},
+  {slug:"yanolja",client:"yanolja",industry:"Accommodation",services:["SEO","GA4","분석"],headline:"자연검색 트래픽 434% 증가",
+   summary:"사용자 행태 기반 키워드 도출, 게시물 단위 콘텐츠 타게팅, SEO 운영 가이드 내재화",
+   scope:"야놀자 공식 웹사이트",
+   used:"SEO, GA settings, Data Analytics",
+   results:[{n:"434%",l:"자연 검색 트래픽 증가"},{n:"80%",l:"검색 결과 노출 증가"},{n:"1500%+",l:"ROI (Conversion Value 기준)"},{n:"3%p",l:"클릭율 증가"}],
+   body:"야놀자 공식 웹사이트 SEO로 사용자 접근성 강화와 앱 전환을 유도했습니다. 지역명·숙박시설명·숙박 타입을 활용한 게시물 단위 콘텐츠 타게팅, Desktop/Mobile 고도화, 그리고 SEO 운영 가이드 제작을 통한 내재화까지 진행했습니다."},
+  {slug:"amorepacific",client:"AMOREPACIFIC",industry:"Cosmetic",services:["SEO","GA4","분석"],headline:"타겟 키워드 범위 52% 확대",
+   summary:"신규 구축 SEO·Migration·기술진단, 네이버 쇼핑 상위노출 최적화, 크롤링 모니터링",
+   scope:"Sulwhasoo(11개국) · Laneige(11개국) · Hera(6개국) · IOPE(6개국) · Mamonde · Ryo · Espoir · Goutal · Illiyoon",
+   used:"Digital Strategy, SEO, GA settings, Data Analytics, Content Optimization, A/B Testing, Dashboard, KPI",
+   results:[{n:"17%",l:"자연 검색 트래픽 상승"},{n:"52%+",l:"타겟 키워드 범위 상승"},{n:"13%",l:"네이버 쇼핑 유입·컨버전 증가"}],
+   body:"아모레퍼시픽 주요 브랜드의 글로벌 공식 사이트를 대상으로 신규 구축 SEO, SEO Migration, 기술 진단, 키워드 리서치, 콘텐츠 단위 최적화, 네이버 쇼핑 상위 노출 최적화, 크롤링 모니터링·리포팅을 수행했습니다."},
+  {slug:"innisfree",client:"innisfree",industry:"Cosmetic",services:["SEO","GA4","분석"],headline:"검색엔진 색인 98% 증가",
+   summary:"일본·대만·베트남 쇼핑몰 구조 개선, SEO 태그 자동 구현, Yahoo Japan 타게팅",
+   scope:"이커머스 사이트 · 해외 공식 웹사이트 (Japan, Taiwan, Vietnam)",
+   used:"SEO, GA Setting, Data Analytics",
+   results:[{n:"98%",l:"검색엔진 색인 수 증가"},{n:"60%",l:"자연 유입 키워드 증가"},{n:"80%",l:"키워드 평균 랭킹 상승"},{n:"55%",l:"검색엔진 유입 상승"}],
+   body:"이니스프리 일본·대만·베트남 쇼핑몰의 검색 노출 확대를 위해 사이트 진단과 구조 개선, 콘텐츠 최적화를 진행했습니다. 콘텐츠 호출 방식·컴포넌트 개선으로 크롤링 접근성을 강화하고, 콘텐츠 생성 시 SEO 태그 자동 구현 체계를 만들었습니다."},
+  {slug:"samsung-semiconductor",client:"SAMSUNG 반도체",industry:"B2B",services:["SEO","분석"],headline:"글로벌 4개 언어 B2B SEO",
+   summary:"국내·글로벌 SEO 운영, 구조화 데이터 설계, Baidu 등록, 고급 SEO 기술 적용",
+   scope:"Semiconductor.Samsung.com (국·영·일·중)",
+   used:"SEO, Adobe Analytics, Google Analytics, Quality Check",
+   results:[{n:"19%",l:"자연 검색 트래픽 개선"},{n:"11%",l:"검색 결과 노출 증가"},{n:"15%",l:"언어·지역 타겟팅율 개선"}],
+   body:"삼성반도체 국내 및 글로벌 웹사이트 SEO 운영 관리. B2B 특성에 맞춰 제품·스펙 등 다양한 키워드 타게팅과 다국어 고도화, 이미지 검색 등 구조화 데이터 설계, 중국 Baidu 등록을 통한 노출 확대, 유사 콘텐츠 경쟁 방지를 위한 고급 SEO 기술을 적용했습니다."},
+  {slug:"lg-chem",client:"LG화학",industry:"B2B",services:["SEO","GA4"],headline:"타겟 키워드 상위 100% 달성",
+   summary:"B2B 신규 구축 SEO Migration, Salesforce ID×GA4 매핑 풀퍼널 데이터 설계",
+   scope:"Lgchemon.com (국·영)",
+   used:"SEO, Google Analytics, Advanced Tagging, Dashboard",
+   results:[{n:"110%",l:"검색엔진 트래픽 증가"},{n:"100%",l:"주요 타겟 키워드 검색 상위 달성"},{n:"60%",l:"검색엔진 색인 수 증가"}],
+   body:"LG화학 B2B 사이트 신규 구축 SEO Migration과 설계, GA 환경 세팅. 세일즈포스 ID를 GA4와 매핑하여 로그인 이후 행태까지 전체 퍼널 데이터를 수집, 사용자 단위 커스텀 매니지먼트가 가능한 데이터 수집 체계를 설계했습니다."},
+  {slug:"shinsegae-df",client:"SHINSEGAE 면세점",industry:"Duty Free",services:["SEO","GA4"],headline:"검색 결과 노출 132% 증가",
+   summary:"차세대 구축 SEO Migration, 다국어 전략, 프론트엔드 SEO 최적화 설계",
+   scope:"Ssfdfs.com (국·영·중)",
+   used:"SEO, Google Analytics",
+   results:[{n:"60%",l:"자연 검색 트래픽 개선"},{n:"132%",l:"검색 결과 노출 증가"}],
+   body:"신세계면세점 차세대 구축에 따른 기존 사이트 SEO Migration. 신규 도메인·다국어 SEO 전략 수립, 메뉴 구조와 콘텐츠 구성 등 프론트엔드 요소의 SEO 최적화 적용·구현 설계, 사용자 검색 키워드 데이터 기반 콘텐츠 운영을 수행했습니다."},
+  {slug:"lotte-df",client:"LOTTE 면세점",industry:"Duty Free",services:["SEO","GA4"],headline:"유입 키워드 80% 증가",
+   summary:"홍보사이트 SEO 진단·개선, 다국어·지역 타게팅 고도화, 전환 기여 확대",
+   scope:"Kr.lottedfs.com",
+   used:"SEO, Google Analytics, Advanced Tagging, Dashboard",
+   results:[{n:"80%",l:"유입 키워드 증가"},{n:"50%+",l:"검색 결과 노출 개선"},{n:"40%+",l:"유입 트래픽 확대"},{n:"20%",l:"검색엔진 색인 수 증가"}],
+   body:"롯데면세점 홍보사이트 SEO 관점 진단과 개선안 도출. 다국어 타게팅과 검색 결과 노출 언어·지역 타게팅 고도화로 노출·유입 증대는 물론, 롯데면세점 본 사이트로의 이동 증가를 통한 전환 기여를 확대했습니다."}
+];
+const INSIGHTS = [
+  {slug:"narrator-has-changed",cat:"GEO",date:"2026-06-18",title:"이야기의 화자가 바뀌었다 — AI 검색 시대의 브랜드 생존 조건",
+   excerpt:"사용자는 이제 링크가 아니라 답변을 읽습니다. 그 답변을 쓰는 것은 AI이고, AI가 인용하는 브랜드만 이야기 속에 존재합니다.",
+   sections:[["검색의 종말이 아니라, 화자의 교체","10개의 파란 링크를 비교하던 시대가 끝나가고 있습니다. AI Overview, ChatGPT, Perplexity가 사용자 대신 정보를 종합해 하나의 답변으로 들려줍니다. 브랜드 스토리의 화자가 브랜드 자신에서 AI로 바뀐 것입니다."],["인용되지 않으면 존재하지 않는다","AI 답변에 등장하지 않는 브랜드는 검색 2페이지보다 더 깊은 곳에 묻힙니다. 반대로 우선 인용되는 브랜드는 비교 없이 신뢰를 얻습니다. '답변 점유율'이 새로운 시장 점유율입니다."],["무엇을 준비해야 하는가","일관된 엔티티 정의, 구조화된 공식 정보, 그리고 AI가 신뢰할 수 있는 근거 콘텐츠. 이 세 가지가 엔티티 브랜딩의 출발점입니다."]]},
+  {slug:"what-is-entity-branding",cat:"Entity Branding",date:"2026-05-30",title:"엔티티 브랜딩이란 무엇인가 — BX×UX×AX 프레임워크",
+   excerpt:"기술 SEO 에이전시와 전통 브랜딩 에이전시 사이, 아무도 점유하지 않은 교차점을 정의합니다.",
+   sections:[["빈 카테고리","시장은 둘로 나뉘어 있습니다. 스키마와 크롤링을 다루는 기술 진영, 그리고 내러티브와 아이덴티티를 다루는 브랜딩 진영. 하지만 AI는 이 둘을 동시에 읽습니다."],["BX × UX × AX","사람이 사랑하는 브랜드(BX), 사용자가 머무는 경험(UX), AI가 인용하는 구조(AX)를 하나의 언어로 교차 설계하는 것 — 이것이 엔티티 브랜딩입니다."],["자기증명 루프","Entity → Experience → Execution → AI 인용 → Entity 강화. 실행 결과가 다시 엔티티를 강화하는 순환이 만들어지면, 브랜드는 스스로 증명합니다."]]},
+  {slug:"geo-vs-seo",cat:"GEO",date:"2026-05-12",title:"GEO는 SEO의 대체재가 아니다 — 두 최적화의 관계",
+   excerpt:"GEO가 뜨면 SEO는 죽는가? 아닙니다. AI는 여전히 검색엔진 위에서 학습하고 인용합니다.",
+   sections:[["같은 뿌리, 다른 목적지","AI 엔진 대부분이 검색 인덱스를 기반으로 답변을 생성합니다. 크롤링 가능하고 구조화된 사이트라는 SEO의 기본기는 GEO의 전제 조건입니다."],["달라지는 것","키워드 순위 경쟁에서 인용 가능성 경쟁으로. 페이지 단위 최적화에서 엔티티 단위 일관성으로. 클릭 지표에서 답변 점유율 지표로 무게중심이 이동합니다."],["실무 우선순위","기술 SEO 기반 정비 → 엔티티·구조화 데이터 구축 → GEO 콘텐츠 최적화 → 답변 모니터링 순서가 안전한 로드맵입니다."]]},
+  {slug:"ga4-decision-infra",cat:"GA4",date:"2026-04-22",title:"GA4는 리포트 도구가 아니라 의사결정 인프라다",
+   excerpt:"세팅만 된 GA4와 의사결정이 가능한 GA4의 차이는 데이터 품질 표준화에서 갈립니다.",
+   sections:[["숫자가 아니라 신뢰","누락·중복·비정상 데이터가 섞인 GA4는 회의에서 '이 숫자 맞아요?'라는 질문만 낳습니다. 데이터 품질 표준화가 모든 것의 첫 단계인 이유입니다."],["KPI는 비즈니스 언어로","조회수·세션이 아니라 전환·행태 기반 핵심 KPI를 비즈니스 목표에서 역산해 정의해야 합니다."],["열람 가능한 데이터만 살아남는다","경영진과 실무진이 같은 대시보드를 실시간으로 보게 될 때, 데이터는 비로소 의사결정 인프라가 됩니다."]]},
+  {slug:"ai-misinformation-risk",cat:"GEO",date:"2026-03-28",title:"AI가 우리 브랜드를 잘못 말하고 있다면 — 오정보 리스크 관리",
+   excerpt:"운영시간 오류, 가격 오류, 단종된 상품 추천. AI 오정보는 브랜드가 모르는 사이 고객을 잃게 만듭니다.",
+   sections:[["보이지 않는 손실","AI가 잘못된 운영시간이나 가격을 답하면 고객은 브랜드를 탓합니다. 문제는 브랜드가 그 답변을 볼 수 없다는 것입니다."],["원인은 구조의 부재","공식 정보가 구조화되어 있지 않으면 AI는 오래된 블로그나 제3자 사이트를 근거로 삼습니다."],["해법","공식 정보의 구조화(Structured Outputs), 엔티티 매핑, 그리고 정기적인 AI 답변 모니터링이 오정보 리스크를 낮춥니다."]]},
+  {slug:"full-funnel-diagnosis",cat:"Analytics",date:"2026-03-05",title:"Full Funnel 진단 — 전환이 새는 지점을 찾는 법",
+   excerpt:"유입은 느는데 전환이 늘지 않는다면, 문제는 채널이 아니라 여정 어딘가에 있습니다.",
+   sections:[["접점부터 전환까지","소비자 접점 → 탐색 → 비교 → 전환의 전 구간을 데이터로 진단해야 새는 지점이 보입니다."],["페이지가 아니라 프로세스","개별 페이지 지표가 아닌 프로세스 단위 UX 진단으로, 이탈이 발생하는 맥락을 읽습니다."],["가설은 실험으로","A/B Test와 온사이트 실험으로 개선안을 검증하고, Before–After 구조로 효과를 측정합니다."]]}
+];
+const CLIENTS = ["SAMSUNG 삼성전자","SAMSUNG 반도체","삼성서울병원","삼성SDS","LOTTE HOTELS","LOTTE RESORT","롯데물산","HYUNDAI","GENESIS","KIA","LG Chem","Mercedes-Benz","Hankook","신한은행","bithumb","HL Klemove","HL Mando","HD HYUNDAI","CESCO","매일유업","OLIVE YOUNG","SAMSUNG BIOLOGICS","AMOREPACIFIC","Sulwhasoo","innisfree","LANEIGE","IOPE","HERA","ETUDE","LOTTE DUTY FREE","SHINSEGAE DUTY FREE","LG U+","하나카드","42dot","Cheil","yanolja","DAESANG","SPAO","SKINFOOD","Hanmi"];
+/* ============================================================
+   RENDER HELPERS
+   ============================================================ */
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const svcRow=(k,v)=>`<a class="index-row cap-row" href="#/services/${k}">
+  <span class="no">${v.no}</span>
+  <span class="ttl">${esc(v.name)} <span style="color:var(--ink-300);font-size:.55em;font-weight:700">${esc(v.short)}</span></span>
+  <span class="meta"><span>${esc(v.en)}</span></span>
+  <span class="desc">${esc(v.desc)}</span></a>`;
+const workRow=(w,i)=>`<a class="index-row" href="#/work/${w.slug}">
+  <span class="no">${String(i+1).padStart(2,"0")}</span>
+  <span class="ttl">${esc(w.client)}</span>
+  <span class="meta"><b>${esc(w.headline)}</b><span>${esc(w.industry)} · ${w.services.map(esc).join(" · ")}</span></span></a>`;
+const insRow=(a,i)=>`<a class="mini-row" href="#/insights/${a.slug}">
+  <span class="t">${esc(a.title)}</span>
+  <span class="d">${esc(a.cat)} · ${a.date}</span></a>`;
+const workCard=w=>`<a class="work-card" href="#/work/${w.slug}">
+  <div class="work-card__thumb" aria-hidden="true">${esc(w.client)}</div>
+  <div class="work-card__body">
+    <h3 class="work-card__client">${esc(w.client)}</h3>
+    <p class="work-card__metric"><b>${esc(w.headline)}</b></p>
+    <div class="tags"><span class="tag tag--ind">${esc(w.industry)}</span>${w.services.map(s=>`<span class="tag">${esc(s)}</span>`).join("")}</div>
+  </div></a>`;
+const insCard=a=>`<a class="card" href="#/insights/${a.slug}">
+  <div class="card__no">${esc(a.cat)} · ${a.date}</div>
+  <h3 class="card__title">${esc(a.title)}</h3>
+  <p class="card__desc">${esc(a.excerpt)}</p>
+  <span class="card__more">읽기</span></a>`;
+
+/* ============================================================
+   ROUTER — 해시 기반 (IA URL 매핑)
+   ============================================================ */
+const routes={
+  "":"home","about":"about","services":"services","work":"work","insights":"insights",
+  "contact":"contact","privacy":"privacy"
+};
+let currentFilters={ind:"all",svc:"all"};
+function parseHash(){
+  const raw=location.hash.replace(/^#\/?/,"");
+  const [path,query]=raw.split("?");
+  const seg=path.split("/").filter(Boolean);
+  return{seg,query:new URLSearchParams(query||"")};
+}
+function navigate(){
+  const{seg,query}=parseHash();
+  let route="404",param=null;
+  if(seg.length===0)route="home";
+  else if(routes[seg[0]]&&seg.length===1)route=routes[seg[0]];
+  else if(seg[0]==="services"&&SERVICES[seg[1]]){route="service-detail";param=seg[1];}
+  else if(seg[0]==="work"&&seg[1]){route=WORKS.some(w=>w.slug===seg[1])?"work-detail":"404";param=seg[1];}
+  else if(seg[0]==="insights"&&seg[1]){route=INSIGHTS.some(a=>a.slug===seg[1])?"insight-detail":"404";param=seg[1];}
+  $$(".route").forEach(el=>el.classList.toggle("is-current",el.dataset.route===route));
+  $$(".gnb__link").forEach(a=>{
+    const nav=a.dataset.nav;
+    const on=(nav==="about"&&route==="about")||(nav==="services"&&route.startsWith("service"))||
+      (nav==="work"&&route.startsWith("work"))||(nav==="insights"&&route.startsWith("insight"))||
+      (nav==="contact"&&route==="contact");
+    a.classList.toggle("is-active",!!on);
+  });
+  if(route==="service-detail")renderServiceDetail(param);
+  if(route==="work"){
+    if(query.get("ind"))currentFilters.ind=query.get("ind");
+    if(query.get("svc"))currentFilters.svc=query.get("svc");
+    renderWorkList();
+  }
+  if(route==="work-detail")renderWorkDetail(param);
+  if(route==="insight-detail")renderInsightDetail(param);
+  closeMobile();
+  window.scrollTo({top:0,behavior:"instant"});
+  requestAnimationFrame(observeReveals);
+  hsLayout();hsUpdate();scrollTheme();
+  document.title=({home:"EXELIENT — 사람이 기억하고, AI가 인용하는 브랜드",about:"About — EXELIENT",
+    services:"Services — EXELIENT",contact:"Contact — EXELIENT",work:"Work — EXELIENT",
+    insights:"Insights — EXELIENT",privacy:"Privacy — EXELIENT","404":"404 — EXELIENT"})[route]||document.title;
+}
+window.addEventListener("hashchange",navigate);
+
+/* ============================================================
+   페이지 렌더러
+   ============================================================ */
+function renderServiceDetail(key){
+  const v=SERVICES[key];
+  $("#svcDetailOutlet").innerHTML=`
+  <div class="container detail-head">
+    <div class="overline">Service ${v.no}</div>
+    <h1>${esc(v.name)}<br><span style="color:var(--ink-300);font-size:.55em;font-weight:800">${esc(v.en)}</span></h1>
+    <p style="font-size:var(--fs-body-lg);color:var(--text-body);max-width:58ch;line-height:var(--lh-relaxed);margin:0 0 32px">${esc(v.intro)}</p>
+  </div>
+  <div class="section container">
+    <div class="section-head"><div class="overline">Process</div><h2>작업 프로세스</h2></div>
+    <div class="process">${v.process.map(p=>`<div class="process__step"><b>${esc(p.b)}</b><span>${esc(p.s)}</span></div>`).join("")}</div>
+  </div>
+  <div class="section container" style="padding-top:0">
+    <div class="section-head"><div class="overline">Expected Impact</div><h2>기대효과</h2></div>
+    <div class="grid grid--2">${v.effects.map(e=>`<div class="card"><h3 class="card__title" style="font-size:16px">${esc(e.b)}</h3><p class="card__desc" style="margin:0">${esc(e.s)}</p></div>`).join("")}</div>
+  </div>
+  ${relatedWorkBlock(v.tags)}
+  <div class="section container" style="padding-top:0">
+    <div class="cta-banner"><div><h2>${esc(v.short)} 도입을 고민 중이라면</h2><p>현재 상태 무료 진단부터 시작하세요.</p></div>
+    <a href="#/contact" class="btn btn--primary">문의하기</a></div>
+  </div>`;
+}
+function relatedWorkBlock(tags){
+  const rel=WORKS.filter(w=>w.services.some(s=>tags.includes(s))).slice(0,3);
+  if(!rel.length)return"";
+  return`<div class="section container" style="padding-top:0">
+    <div class="section-head"><div class="overline">Related Work</div><h2>관련 사례</h2></div>
+    <div class="grid grid--3">${rel.map(workCard).join("")}</div></div>`;
+}
+function renderWorkList(){
+  const inds=["all",...new Set(WORKS.map(w=>w.industry))];
+  const svcs=["all","SEO","GEO","GA4","분석"];
+  $("#indFilters").innerHTML=inds.map(i=>`<button class="filter-chip${currentFilters.ind===i?" is-active":""}" data-ind="${i}">${i==="all"?"전체":i}</button>`).join("");
+  $("#svcFilters").innerHTML=svcs.map(s=>`<button class="filter-chip${currentFilters.svc===s?" is-active":""}" data-svc="${s}">${s==="all"?"전체":s}</button>`).join("");
+  const list=WORKS.filter(w=>(currentFilters.ind==="all"||w.industry===currentFilters.ind)&&(currentFilters.svc==="all"||w.services.includes(currentFilters.svc)));
+  $("#workGrid").innerHTML=list.map(workRow).join("");
+  $("#workEmpty").hidden=list.length>0;
+  $("#workGrid").style.display=list.length?"block":"none";
+}
+document.addEventListener("click",e=>{
+  const ind=e.target.closest("[data-ind]"),svc=e.target.closest("[data-svc]");
+  if(ind){currentFilters.ind=ind.dataset.ind;syncWorkURL();}
+  if(svc){currentFilters.svc=svc.dataset.svc;syncWorkURL();}
+  if(e.target.closest("#workReset")){currentFilters={ind:"all",svc:"all"};syncWorkURL();}
+});
+function syncWorkURL(){
+  const q=new URLSearchParams();
+  if(currentFilters.ind!=="all")q.set("ind",currentFilters.ind);
+  if(currentFilters.svc!=="all")q.set("svc",currentFilters.svc);
+  const qs=q.toString();
+  history.replaceState(null,"","#/work"+(qs?"?"+qs:""));
+  renderWorkList();
+}
+function renderWorkDetail(slug){
+  const i=WORKS.findIndex(w=>w.slug===slug),w=WORKS[i];
+  const prev=WORKS[i-1],next=WORKS[i+1];
+  $("#workDetailOutlet").innerHTML=`
+  <div class="container detail-head">
+    <div class="overline">Case · ${esc(w.industry)}</div>
+    <h1>${esc(w.client)} — ${esc(w.headline)}</h1>
+    <div class="meta-row">
+      <div><b>Client</b><span>${esc(w.client)}</span></div>
+      <div><b>Industry</b><span>${esc(w.industry)}</span></div>
+      <div><b>Services</b><span>${w.services.map(esc).join(" · ")}</span></div>
+    </div>
+  </div>
+  <div class="container" style="padding:var(--space-12) 0 0">
+    <div class="result-band">${w.results.map(r=>`<div><div class="n"><em>${esc(r.n)}</em></div><div class="l">${esc(r.l)}</div></div>`).join("")}</div>
+  </div>
+  <div class="container detail-body" style="grid-template-columns:1fr;max-width:calc(820px + var(--gutter-pc)*2)">
+    <div class="prose">
+      <h2>프로젝트 개요</h2><p>${esc(w.body)}</p>
+      <h2>수행 범위</h2><p>${esc(w.scope)}</p>
+      <h2>이용 서비스</h2><p>${esc(w.used)}</p>
+      <blockquote>${esc(w.summary)}</blockquote>
+    </div>
+  </div>
+  <div class="container pn-nav">
+    <a href="${prev?`#/work/${prev.slug}`:"#"}" ${prev?"":'aria-disabled="true"'}>← ${prev?esc(prev.client):"이전 없음"}</a>
+    <a href="#/work">목록</a>
+    <a href="${next?`#/work/${next.slug}`:"#"}" ${next?"":'aria-disabled="true"'}>${next?esc(next.client):"다음 없음"} →</a>
+  </div>`;
+  injectJSONLD({"@context":"https://schema.org","@type":"CreativeWork","name":`${w.client} — ${w.headline}`,"about":w.summary,"creator":{"@type":"Organization","name":"EXELIENT"},"genre":w.industry});
+}
+let insCat="all";
+function renderInsightList(){
+  const cats=["all",...new Set(INSIGHTS.map(a=>a.cat))];
+  $("#insCatFilters").innerHTML=cats.map(c=>`<button class="filter-chip${insCat===c?" is-active":""}" data-cat="${esc(c)}">${c==="all"?"전체":esc(c)}</button>`).join("");
+  const list=INSIGHTS.filter(a=>insCat==="all"||a.cat===insCat);
+  $("#insGrid").innerHTML=list.map(insRow).join("");
+  $("#insEmpty").hidden=list.length>0;
+}
+document.addEventListener("click",e=>{
+  const c=e.target.closest("[data-cat]");
+  if(c){insCat=c.dataset.cat;renderInsightList();}
+});
+function renderInsightDetail(slug){
+  const a=INSIGHTS.find(x=>x.slug===slug);
+  const related=INSIGHTS.filter(x=>x.cat===a.cat&&x.slug!==slug).slice(0,2);
+  const toc=a.sections.map((s,i)=>`<a href="#sec-${i}">${esc(s[0])}</a>`).join("");
+  $("#insDetailOutlet").innerHTML=`
+  <div class="container detail-head">
+    <div class="overline">${esc(a.cat)} · ${a.date}</div>
+    <h1>${esc(a.title)}</h1>
+    <div class="meta-row"><div><b>Author</b><span>EXELIENT Insights</span></div>
+    <div><b>Share</b><span><button class="filter-chip" id="shareBtn" style="padding:5px 12px">링크 복사</button></span></div></div>
+  </div>
+  <div class="container detail-body">
+    <article class="prose">
+      ${a.sections.map((s,i)=>`<h2 id="sec-${i}">${esc(s[0])}</h2><p>${esc(s[1])}</p>`).join("")}
+      <blockquote>브랜드가 AI 답변에서 어떻게 등장하는지 궁금하다면, <a href="#/contact" style="color:inherit">무료 진단</a>으로 시작하세요.</blockquote>
+    </article>
+    <nav class="toc" aria-label="목차"><b>Contents</b>${toc}</nav>
+  </div>
+  ${related.length?`<div class="container" style="padding-bottom:var(--space-20)">
+    <div class="section-head"><div class="overline">Related</div><h2>관련 글</h2></div>
+    <div class="grid grid--2">${related.map(insCard).join("")}</div></div>`:""}`;
+  $("#shareBtn")?.addEventListener("click",()=>{
+    navigator.clipboard?.writeText(location.href).then(()=>toast("링크가 복사되었습니다")).catch(()=>toast("복사에 실패했습니다",true));
+  });
+  injectJSONLD({"@context":"https://schema.org","@type":"Article","headline":a.title,"datePublished":a.date,"articleSection":a.cat,"author":{"@type":"Organization","name":"EXELIENT"}});
+}
+function injectJSONLD(obj){
+  $("#dyn-jsonld")?.remove();
+  const s=document.createElement("script");
+  s.type="application/ld+json";s.id="dyn-jsonld";
+  s.textContent=JSON.stringify(obj);
+  document.head.appendChild(s);
+}
+/* ============================================================
+   INTERACTIONS — GNB · 모바일 메뉴 · 테마 · 언어 · 리빌 · 카운트업 · 폼
+   ============================================================ */
+/* GNB 스크롤 축소 (F-COM-GNB §1) */
+const gnb=$("#gnb");
+window.addEventListener("scroll",()=>gnb.classList.toggle("is-shrunk",window.scrollY>40),{passive:true});
+
+/* 모바일 메뉴 — ESC·외부 탭 닫힘 (F-COM-GNB §4) */
+const mMenu=$("#mobileMenu"),burger=$("#burger");
+function openMobile(){mMenu.classList.add("is-open");document.body.classList.add("menu-locked");burger.setAttribute("aria-expanded","true");$("#menuClose").focus();}
+function closeMobile(){mMenu.classList.remove("is-open");document.body.classList.remove("menu-locked");burger.setAttribute("aria-expanded","false");}
+burger.addEventListener("click",openMobile);
+$("#menuClose").addEventListener("click",closeMobile);
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile();});
+mMenu.addEventListener("click",e=>{if(e.target===mMenu||e.target.closest("a"))closeMobile();});
+
+/* 테마 토글 */
+function setTheme(mode){
+  autoTheme=false; /* 수동 선택 → 스크롤 자동 전환 해제 */
+  document.documentElement.dataset.theme=mode;
+  try{localStorage.setItem("exe-theme",mode);localStorage.setItem("exe-theme-user","1");}catch(_){}
+  $$(".theme-toggle button").forEach(b=>b.classList.toggle("is-on",b.dataset.mode===mode));
+}
+$$(".theme-toggle button").forEach(b=>b.addEventListener("click",()=>setTheme(b.dataset.mode)));
+$("#mobileTheme").addEventListener("click",()=>setTheme(document.documentElement.dataset.theme==="dark"?"light":"dark"));
+try{const saved=localStorage.getItem("exe-theme"),userSet=localStorage.getItem("exe-theme-user");
+  if(userSet&&saved){document.documentElement.dataset.theme=saved;
+    $$(".theme-toggle button").forEach(b=>b.classList.toggle("is-on",b.dataset.mode===saved));}
+}catch(_){}
+
+/* 언어 토글 (REQ-007 — EN 미번역 KR fallback 데모) */
+$$(".lang-toggle button").forEach(b=>b.addEventListener("click",()=>{
+  $$(".lang-toggle button").forEach(x=>x.classList.toggle("is-on",x===b));
+  try{document.cookie="exe-lang="+b.dataset.lang+";path=/;max-age=31536000";}catch(_){}
+  if(b.dataset.lang==="en")toast("EN version is in progress — showing KR content (fallback)");
+}));
+
+/* 스크롤 리빌 */
+let revealIO;
+function observeReveals(){
+  revealIO?.disconnect();
+  revealIO=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){e.target.classList.add("is-in");revealIO.unobserve(e.target);}
+  }),{threshold:.12});
+  $$("[data-reveal]:not(.is-in)").forEach(el=>revealIO.observe(el));
+}
+
+/* 성과 지표 카운트업 (F-HOME §6 · reduce-motion 대응) */
+const reduceMotion=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const countIO=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting)return;
+  countIO.unobserve(e.target);
+  $$("[data-count]",e.target).forEach(el=>{
+    const target=+el.dataset.count;
+    if(reduceMotion){el.textContent=target.toLocaleString();return;}
+    const t0=performance.now(),dur=1400;
+    (function tick(t){
+      const p=Math.min((t-t0)/dur,1),eased=1-Math.pow(1-p,3);
+      el.textContent=Math.round(target*eased).toLocaleString();
+      if(p<1)requestAnimationFrame(tick);
+    })(t0);
+  });
+}),{threshold:.4});
+
+/* 토스트 */
+let toastTimer;
+function toast(msg,isError=false){
+  const t=$("#toast");
+  $("#toastMsg").textContent=msg;
+  t.classList.toggle("is-error",isError);
+  t.classList.add("is-show");
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>t.classList.remove("is-show"),3200);
+}
+
+/* ============================================================
+   F-CON 문의 폼 — 검증·honeypot·동의 (REQ-006/106/108)
+   ============================================================ */
+const form=$("#contactForm");
+function setErr(input,msg){
+  const f=input.closest(".field");
+  f.classList.toggle("is-error",!!msg);
+  const m=$(".msg",f);if(m)m.textContent=msg||"";
+}
+function validateField(input){
+  const v=input.value.trim(),n=input.name;
+  if(n==="name"&&!v)return"이름을 입력해 주세요";
+  if(n==="email"){
+    if(!v)return"이메일을 입력해 주세요";
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v))return"올바른 이메일 형식이 아닙니다";
+  }
+  if(n==="type"&&!v)return"문의 유형을 선택해 주세요";
+  if(n==="message"){
+    if(!v)return"문의 내용을 입력해 주세요";
+    if(v.length<10)return"내용을 10자 이상 입력해 주세요";
+  }
+  return"";
+}
+form.addEventListener("input",e=>{
+  if(e.target.matches("input,select,textarea")&&e.target.name!=="website")setErr(e.target,validateField(e.target));
+});
+form.addEventListener("submit",e=>{
+  e.preventDefault();
+  if(form.website.value)return; /* honeypot — 봇 차단 */
+  let firstBad=null;
+  ["name","email","type","message"].forEach(n=>{
+    const el=form[n],msg=validateField(el);
+    setErr(el,msg);
+    if(msg&&!firstBad)firstBad=el;
+  });
+  const consentOK=$("#consent").checked;
+  $("#consentMsg").textContent=consentOK?"":"개인정보 수집·이용 동의가 필요합니다";
+  $("#consentMsg").style.color=consentOK?"":"var(--danger)";
+  if(firstBad){firstBad.focus();toast("입력 내용을 확인해 주세요",true);return;}
+  if(!consentOK){$("#consent").focus();toast("개인정보 동의가 필요합니다",true);return;}
+  const btn=$("#submitBtn");
+  btn.classList.add("is-loading");btn.textContent="전송 중…";
+  setTimeout(()=>{ /* 데모 — 실서비스에서는 저장 + 담당자 메일 발송 (REQ-006/017) */
+    btn.classList.remove("is-loading");btn.textContent="문의 보내기";
+    form.reset();$$(".field.is-error",form).forEach(f=>f.classList.remove("is-error"));
+    $$(".msg",form).forEach(m=>m.textContent="");
+    toast("문의가 접수되었습니다. 영업일 2일 내 회신드립니다.");
+  },900);
+});
+
+
+/* ============================================================
+   HSCROLL 엔진 — 세로 진행률 → 가로 트랜슬레이트 (PC 전용)
+   ============================================================ */
+const hs=$("#brandHscroll"),hsTrack=$("#hsTrack"),hsBar=$("#hsBar"),hsNow=$("#hsNow");
+function hsActive(){return hs&&window.innerWidth>960&&!reduceMotion&&$("[data-route='home']").classList.contains("is-current");}
+function hsLayout(){
+  if(!hs)return;
+  if(!hsActive()){hs.style.height="";hsTrack.style.transform="";return;}
+  const panels=+hs.dataset.panels;
+  hs.style.height=(panels*100)+"vh";
+}
+function hsUpdate(){
+  if(!hsActive())return;
+  const rect=hs.getBoundingClientRect();
+  const total=hs.offsetHeight-window.innerHeight;
+  const progress=Math.min(Math.max(-rect.top/total,0),1);
+  const panels=+hs.dataset.panels;
+  const maxX=(panels-1)*window.innerWidth;
+  hsTrack.style.transform=`translateX(${-progress*maxX}px)`;
+  hsBar.style.transform=`scaleX(${progress})`;
+  hsNow.textContent=String(Math.min(panels,Math.round(progress*(panels-1))+1)).padStart(2,"0");
+}
+window.addEventListener("resize",()=>{hsLayout();hsUpdate();},{passive:true});
+
+/* ============================================================
+   스크롤 연동 테마 — 첫 화면 다크 시작 → 스크롤 시 라이트
+   수동 토글 시 자동 전환 해제 (사용자 의사 우선)
+   ============================================================ */
+let autoTheme=true;
+try{if(localStorage.getItem("exe-theme-user"))autoTheme=false;}catch(_){}
+function scrollTheme(){
+  if(!autoTheme)return;
+  const onHome=$("[data-route='home']").classList.contains("is-current");
+  if(!onHome){setThemeSilent("light");return;}
+  /* 가로 스와이프(다크 밴드) 종료 직전까지 다크 유지 → 이후 라이트 */
+  const threshold=hs&&hsActive()?hs.offsetHeight-window.innerHeight*0.6:window.innerHeight*0.55;
+  setThemeSilent(window.scrollY<threshold?"dark":"light");
+}
+function setThemeSilent(mode){
+  if(document.documentElement.dataset.theme===mode)return;
+  document.documentElement.dataset.theme=mode;
+  $$(".theme-toggle button").forEach(b=>b.classList.toggle("is-on",b.dataset.mode===mode));
+}
+window.addEventListener("scroll",()=>{scrollTheme();hsUpdate();},{passive:true});
+
+/* ============================================================
+   INIT — 정적 섹션 채우기
+   ============================================================ */
+$("#homeServiceCards").innerHTML=Object.entries(SERVICES).map(([k,v])=>svcRow(k,v)).join("");
+$("#svcIndexCards").innerHTML=Object.entries(SERVICES).map(([k,v])=>svcRow(k,v)).join("");
+const featured=WORKS.filter(w=>["yanolja","lotte-hotels","kia","lg-chem","amorepacific","samsung-semiconductor"].includes(w.slug));
+if(featured.length){$("#homeWorkCards").innerHTML=featured.map(workRow).join("");}
+else{$("#homeWorkSection").hidden=true;} /* F-HOME §4 — 0건 시 섹션 숨김 */
+const latestIns=INSIGHTS.slice(0,4);
+if(latestIns.length){$("#homeInsightCards").innerHTML=latestIns.map(insRow).join("");}
+else{$("#homeInsightSection").hidden=true;}
+const streamHTML=CLIENTS.map(c=>`<b>${esc(c)}</b>`).join('<span class="sep">∙</span>');
+$("#clientsStream").innerHTML=streamHTML;
+$("#clientsStreamAbout").innerHTML=streamHTML;
+$("#ftrYear").textContent=new Date().getFullYear();
+countIO.observe($("#statBand"));
+renderInsightList();
+navigate();
+observeReveals();
+hsLayout();scrollTheme();hsUpdate();
+</script>
+</body>
+</html>
